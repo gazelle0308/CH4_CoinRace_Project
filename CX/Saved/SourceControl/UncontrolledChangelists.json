@@ -1,0 +1,18 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Git/CX/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset",
+				"C:/Git/CX/Content/Ui/BP_ChatUi.uasset",
+				"C:/Git/CX/Content/VehicleTemplate/Blueprints/W_VehicleAdvUI.uasset",
+				"C:/Git/CX/Content/VehicleTemplate/Maps/VehicleAdvExampleMap.umap",
+				"C:/Git/CX/Content/VehicleTemplate/Input/IMC_Default.uasset",
+				"C:/Git/CX/Content/VehicleTemplate/Input/Actions/IA_Attack.uasset",
+				"C:/Git/CX/Content/VehicleTemplate/Blueprints/SportsCar/BP_SportsCar_Pawn.uasset"
+			]
+		}
+	]
+}

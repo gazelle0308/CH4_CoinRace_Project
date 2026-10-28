@@ -1,0 +1,2166 @@
+﻿Log file open, 10/28/26 11:29:45
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=31428)
+LogWindows: Custom abort handler registered for crash reporting.
+LogInit: Display: Running engine for game: CX
+LogCore: UTS: Unreal Trace Server launched successfully
+LogTrace: Initializing trace...
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogTrace: Display: Control listening on port 40748
+LogTrace: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.6-CL-44394996"
+LogCsvProfiler: Display: Metadata set : engineversion="5.6.1-44394996+++UE5+Release-5.6"
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (24H2) [10.0.26100.3775] "
+LogCsvProfiler: Display: Metadata set : cpu="AuthenticAMD|AMD Ryzen 5 7500F 6-Core Processor"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : commandline="" ../../../../../../Git/CX/CX.uproject /Game/VehicleTemplate/Maps/VehicleAdvExampleMap -game -PIEVIACONSOLE -Multiprocess -server -log GameUserSettingsINI=PIEGameUserSettings0 -MultiprocessSaveConfig -forcepassthrough -messaging -SessionName="Play in Standalone Game" -port=17777 -windowed""
+LogCsvProfiler: Display: Metadata set : loginid="d42bc8a2a4604c3d9cebe8df4addbd03"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogStats: Stats thread started at 0.310719
+LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-6EB826694E5C5F5D77EAB783E41DE631
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [../../../../../../Git/CX/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+LogPluginManager: Looking for build plugins target receipt
+LogConfig: Display: Loading IOS ini files took 0.03 seconds
+LogConfig: Display: Loading Android ini files took 0.03 seconds
+LogPluginManager: Found matching target receipt: ../../../../../../Git/CX/Binaries/Win64/CXEditor.target
+LogPluginManager: Looking for enabled plugins target receipt
+LogPluginManager: Found matching target receipt: ../../../../../../Git/CX/Binaries/Win64/CXEditor.target
+LogConfig: Display: Loading Mac ini files took 0.03 seconds
+LogConfig: Display: Loading Linux ini files took 0.04 seconds
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosInsights
+LogPluginManager: Mounting Engine plugin ChaosVD
+LogPluginManager: Mounting Engine plugin CmdLinkServer
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Mounting Engine plugin Fab
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin IoStoreInsights
+LogPluginManager: Mounting Engine plugin MassInsights
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin RenderGraphInsights
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin UbaController
+LogPluginManager: Mounting Engine plugin WorldMetrics
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin ACLPlugin
+LogPluginManager: Mounting Engine plugin AnimationData
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin ControlRigModules
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin DeformerGraph
+LogPluginManager: Mounting Engine plugin GameplayInsights
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin LiveLink
+LogPluginManager: Mounting Engine plugin RigLogic
+LogPluginManager: Mounting Engine plugin SkeletalMeshModelingTools
+LogPluginManager: Mounting Engine plugin TweeningUtils
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin EngineCameras
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin N10XSourceCodeAccess
+LogPluginManager: Mounting Engine plugin NamingTokens
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin ProjectLauncher
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin RenderDocPlugin
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogConfig: Display: Loading TVOS ini files took 0.03 seconds
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin ChangelistReview
+LogPluginManager: Mounting Engine plugin ColorGrading
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin EngineAssetDefinitions
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogConfig: Display: Loading Unix ini files took 0.03 seconds
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin UMGWidgetPreview
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin AdvancedRenamer
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin ChaosVehiclesPlugin
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin EditorDataStorage
+LogPluginManager: Mounting Engine plugin EditorDataStorageFeatures
+LogPluginManager: Mounting Engine plugin EditorPerformance
+LogPluginManager: Mounting Engine plugin EditorTelemetry
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryDataflow
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin LevelSequenceNavigatorBridge
+LogPluginManager: Mounting Engine plugin LocalizableMessage
+LogPluginManager: Mounting Engine plugin LowLevelNetTrace
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin NFORDenoise
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin RawInput
+LogPluginManager: Mounting Engine plugin RuntimeTelemetry
+LogPluginManager: Mounting Engine plugin SequenceNavigator
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin ToolPresets
+LogPluginManager: Mounting Engine plugin Cascade
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin NiagaraSimCaching
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin USDImporter
+LogPluginManager: Mounting Engine plugin InterchangeAssets
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin FabLauncher
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogConfig: Display: Loading VulkanPC ini files took 0.03 seconds
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin MetaHumanSDK
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin NNEDenoiser
+LogPluginManager: Mounting Engine plugin NNERuntimeORT
+LogPluginManager: Mounting Engine plugin EOSShared
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogConfig: Display: Loading Windows ini files took 0.03 seconds
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin ComputeFramework
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin MsQuic
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin PropertyBindingUtils
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin RigVM
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin StateTree
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin USDCore
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin CameraCalibrationCore
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin ConcertMain
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin PortableObjectFileDataSource
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin ObjectMixer
+LogPluginManager: Mounting Engine plugin BaseCharacterFXEditor
+LogPluginManager: Mounting Engine plugin CompositeCore
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPluginManager: Mounting Engine plugin AnalyticsBlueprintLibrary
+LogPluginManager: Mounting Engine plugin SQLiteCore
+LogPluginManager: Mounting Engine plugin XInputDevice
+LogPluginManager: Mounting Engine plugin ConcertSyncClient
+LogPluginManager: Mounting Engine plugin ConcertSyncCore
+LogConfig: Display: Loading VisionOS ini files took 0.03 seconds
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+LogWindows: Failed to load 'WinPixGpuCapturer.dll' (GetLastError=126)
+LogWindows: File 'WinPixGpuCapturer.dll' does not exist
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogConfig: Applying CVar settings from Section [/Script/RenderDocPlugin.RenderDocPluginSettings] File [Engine]
+RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+LogNFORDenoise: NFORDenoise function starting up
+LogStudioTelemetry: Started StudioTelemetry Session
+LogEOSShared: Loaded "C:/Program Files/Epic Games/UE_5.6/Engine/Binaries/Win64/EOSSDK-Win64-Shipping.dll"
+LogEOSShared: FEOSSDKManager::Initialize Initializing EOSSDK Version:1.17.0-41373641
+LogInit: Using libcurl 8.12.1
+LogInit:  - built for Windows
+LogInit:  - supports SSL with OpenSSL/1.1.1t
+LogInit:  - supports HTTP deflate (compression) using libz 1.3
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:      CURL_VERSION_HTTP2
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: CreateHttpThread using FCurlMultiPollEventLoopHttpThread
+LogInit: Creating http thread with maximum 256 concurrent requests
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+LogConfig: Applying CVar settings from Section [/Script/CompositeCore.CompositeCorePluginSettings] File [Engine]
+LogInit: ExecutableName: UnrealEditor.exe
+LogInit: Build: ++UE5+Release-5.6-CL-44394996
+LogInit: Platform=WindowsEditor
+LogInit: MachineId=d42bc8a2a4604c3d9cebe8df4addbd03
+LogInit: DeviceId=
+LogInit: Engine Version: 5.6.1-44394996+++UE5+Release-5.6
+LogInit: Compatible Engine Version: 5.6.0-43139311+++UE5+Release-5.6
+LogInit: Net CL: 43139311
+LogInit: OS: Windows 11 (24H2) [10.0.26100.3775] (), CPU: AMD Ryzen 5 7500F 6-Core Processor             , GPU: NVIDIA GeForce RTX 5060
+LogInit: Compiled (64-bit): Jul 28 2025 20:53:34
+LogInit: Architecture: x64
+LogInit: Compiled with Visual C++: 19.38.33130.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.6
+LogInit: Command Line: /Game/VehicleTemplate/Maps/VehicleAdvExampleMap -game -PIEVIACONSOLE -Multiprocess -server -log GameUserSettingsINI=PIEGameUserSettings0 -MultiprocessSaveConfig -forcepassthrough -messaging -SessionName="Play in Standalone Game" -port=17777 -windowed
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_5.6/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogDevObjectVersion: Number of dev versions registered: 37
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 49
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 207
+LogDevObjectVersion:   FortniteValkyrie (8DBC2C5B-54A7-43E0-A768-FCBB7DA29060): 8
+LogDevObjectVersion:   FortniteSeason (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 13
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 11
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 121
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 56
+LogDevObjectVersion:   UE5-SpecialProject (59DA5D52-1232-4948-B878-597870B8E98B): 9
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   Dev-NaniteResearch (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogDevObjectVersion:   Dev-ComputeFramework (6304A3E7-0059-4F59-8CFC-21BD7721FD4E): 0
+LogDevObjectVersion:   LensFileVersion (8652A554-966A-466C-9FD7-1C6DD61B1ADB): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC.
+LogInit: Object subsystem initialized
+LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: Set CVar [[r.setres:1280x720]]
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: Set CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+LogConfig: Set CVar [[r.Nanite.Streaming.ReservedResources:1]]
+LogConfig: CVar [[D3D12.Bindless.ResourceDescriptorHeapSize:32768]] deferred - dummy variable created
+LogConfig: CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]] deferred - dummy variable created
+LogConfig: Set CVar [[r.PSOPrecache.GlobalShaders:1]]
+LogConfig: Set CVar [[r.VRS.EnableSoftware:1]]
+LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
+[2026.10.28-02.29.45:843][  0]LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+[2026.10.28-02.29.45:843][  0]LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+[2026.10.28-02.29.45:844][  0]LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+[2026.10.28-02.29.45:844][  0]LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+[2026.10.28-02.29.45:844][  0]LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2026.10.28-02.29.45:844][  0]LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+[2026.10.28-02.29.45:844][  0]LogConfig: CVar [[D3D12.Bindless.ResourceDescriptorHeapSize:32768]] deferred - dummy variable created
+[2026.10.28-02.29.45:844][  0]LogConfig: CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]] deferred - dummy variable created
+[2026.10.28-02.29.45:844][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2026.10.28-02.29.45:844][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2026.10.28-02.29.45:844][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2026.10.28-02.29.45:844][  0]LogConfig: Set CVar [[r.GPUCrashDebugging:0]]
+[2026.10.28-02.29.45:844][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2026.10.28-02.29.45:844][  0]LogConfig: Set CVar [[r.Shaders.RemoveUnusedInterpolators:1]]
+[2026.10.28-02.29.45:844][  0]LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
+[2026.10.28-02.29.45:844][  0]LogConfig: Set CVar [[r.Mobile.ShadingPath:0]]
+[2026.10.28-02.29.45:844][  0]LogConfig: Set CVar [[r.Mobile.AllowDeferredShadingOpenGL:0]]
+[2026.10.28-02.29.45:844][  0]LogConfig: Set CVar [[r.Mobile.SupportGPUScene:1]]
+[2026.10.28-02.29.45:845][  0]LogConfig: Set CVar [[r.Mobile.AntiAliasing:1]]
+[2026.10.28-02.29.45:845][  0]LogConfig: Set CVar [[r.Mobile.FloatPrecisionMode:0]]
+[2026.10.28-02.29.45:845][  0]LogConfig: Set CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2026.10.28-02.29.45:845][  0]LogConfig: Set CVar [[r.Mobile.VirtualTextures:0]]
+[2026.10.28-02.29.45:845][  0]LogConfig: Set CVar [[r.DiscardUnusedQuality:0]]
+[2026.10.28-02.29.45:845][  0]LogConfig: Set CVar [[r.AllowOcclusionQueries:1]]
+[2026.10.28-02.29.45:845][  0]LogConfig: Set CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2026.10.28-02.29.45:845][  0]LogConfig: Set CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2026.10.28-02.29.45:845][  0]LogConfig: Set CVar [[r.PrecomputedVisibilityWarning:0]]
+[2026.10.28-02.29.45:845][  0]LogConfig: Set CVar [[r.TextureStreaming:1]]
+[2026.10.28-02.29.45:845][  0]LogConfig: Set CVar [[Compat.UseDXT5NormalMaps:0]]
+[2026.10.28-02.29.45:845][  0]LogConfig: Set CVar [[r.VirtualTextures:0]]
+[2026.10.28-02.29.45:845][  0]LogConfig: Set CVar [[r.VT.EnableAutoImport:1]]
+[2026.10.28-02.29.45:845][  0]LogConfig: Set CVar [[r.VirtualTexturedLightmaps:0]]
+[2026.10.28-02.29.45:845][  0]LogConfig: Set CVar [[r.VT.AnisotropicFiltering:0]]
+[2026.10.28-02.29.45:845][  0]LogConfig: CVar [[bEnableVirtualTextureOpacityMask:1]] deferred - dummy variable created
+[2026.10.28-02.29.45:845][  0]LogConfig: CVar [[bEnableVirtualTexturePostProcessing:0]] deferred - dummy variable created
+[2026.10.28-02.29.45:845][  0]LogConfig: Set CVar [[r.VT.TileSize:128]]
+[2026.10.28-02.29.45:845][  0]LogConfig: Set CVar [[r.VT.TileBorderSize:4]]
+[2026.10.28-02.29.45:845][  0]LogConfig: Set CVar [[r.vt.FeedbackFactor:16]]
+[2026.10.28-02.29.45:845][  0]LogConfig: Set CVar [[r.MeshPaintVirtualTexture.TileSize:32]]
+[2026.10.28-02.29.45:845][  0]LogConfig: Set CVar [[r.MeshPaintVirtualTexture.TileBorderSize:2]]
+[2026.10.28-02.29.45:846][  0]LogConfig: Set CVar [[r.MeshPaintVirtualTexture.UseCompression:1]]
+[2026.10.28-02.29.45:846][  0]LogConfig: Set CVar [[r.StaticMesh.DefaultMeshPaintTextureSupport:1]]
+[2026.10.28-02.29.45:846][  0]LogConfig: Set CVar [[r.MeshPaintVirtualTexture.DefaultTexelsPerVertex:4]]
+[2026.10.28-02.29.45:846][  0]LogConfig: Set CVar [[r.MeshPaintVirtualTexture.MaxTextureSize:4096]]
+[2026.10.28-02.29.45:846][  0]LogConfig: Set CVar [[r.vt.rvt.EnableBaseColor:1]]
+[2026.10.28-02.29.45:846][  0]LogConfig: Set CVar [[r.vt.rvt.EnableBaseColorRoughness:1]]
+[2026.10.28-02.29.45:846][  0]LogConfig: Set CVar [[r.vt.rvt.EnableBaseColorSpecular:1]]
+[2026.10.28-02.29.45:846][  0]LogConfig: Set CVar [[r.vt.rvt.EnableMask4:1]]
+[2026.10.28-02.29.45:846][  0]LogConfig: Set CVar [[r.vt.rvt.EnableWorldHeight:1]]
+[2026.10.28-02.29.45:846][  0]LogConfig: Set CVar [[r.vt.rvt.EnableDisplacement:1]]
+[2026.10.28-02.29.45:846][  0]LogConfig: Set CVar [[r.vt.rvt.HighQualityPerPixelHeight:1]]
+[2026.10.28-02.29.45:846][  0]LogConfig: CVar [[WorkingColorSpaceChoice:sRGB]] deferred - dummy variable created
+[2026.10.28-02.29.45:846][  0]LogConfig: CVar [[RedChromaticityCoordinate:(X=0.640000,Y=0.330000)]] deferred - dummy variable created
+[2026.10.28-02.29.45:846][  0]LogConfig: CVar [[GreenChromaticityCoordinate:(X=0.300000,Y=0.600000)]] deferred - dummy variable created
+[2026.10.28-02.29.45:846][  0]LogConfig: CVar [[BlueChromaticityCoordinate:(X=0.150000,Y=0.060000)]] deferred - dummy variable created
+[2026.10.28-02.29.45:846][  0]LogConfig: CVar [[WhiteChromaticityCoordinate:(X=0.312700,Y=0.329000)]] deferred - dummy variable created
+[2026.10.28-02.29.45:846][  0]LogConfig: Set CVar [[r.LegacyLuminanceFactors:0]]
+[2026.10.28-02.29.45:847][  0]LogConfig: Set CVar [[r.ClearCoatNormal:0]]
+[2026.10.28-02.29.45:847][  0]LogConfig: Set CVar [[r.DynamicGlobalIlluminationMethod:1]]
+[2026.10.28-02.29.45:847][  0]LogConfig: Set CVar [[r.ReflectionMethod:1]]
+[2026.10.28-02.29.45:847][  0]LogConfig: Set CVar [[r.ReflectionCaptureResolution:128]]
+[2026.10.28-02.29.45:847][  0]LogConfig: Set CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2026.10.28-02.29.45:847][  0]LogConfig: Set CVar [[r.Lumen.HardwareRayTracing:1]]
+[2026.10.28-02.29.45:847][  0]LogConfig: Set CVar [[r.Lumen.HardwareRayTracing.LightingMode:0]]
+[2026.10.28-02.29.45:847][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.EnableForProject:0]]
+[2026.10.28-02.29.45:847][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs:1]]
+[2026.10.28-02.29.45:847][  0]LogConfig: Set CVar [[r.Lumen.ScreenTracingSource:0]]
+[2026.10.28-02.29.45:847][  0]LogConfig: Set CVar [[r.Lumen.Reflections.HardwareRayTracing.Translucent.Refraction.EnableForProject:1]]
+[2026.10.28-02.29.45:847][  0]LogConfig: Set CVar [[r.MegaLights.EnableForProject:0]]
+[2026.10.28-02.29.45:847][  0]LogConfig: Set CVar [[r.RayTracing.Shadows:0]]
+[2026.10.28-02.29.45:847][  0]LogConfig: Set CVar [[r.Shadow.Virtual.Enable:1]]
+[2026.10.28-02.29.45:847][  0]LogConfig: Set CVar [[r.RayTracing:1]]
+[2026.10.28-02.29.45:847][  0]LogConfig: Set CVar [[r.RayTracing.UseTextureLod:0]]
+[2026.10.28-02.29.45:847][  0]LogConfig: Set CVar [[r.PathTracing:1]]
+[2026.10.28-02.29.45:847][  0]LogConfig: Set CVar [[r.GenerateMeshDistanceFields:1]]
+[2026.10.28-02.29.45:847][  0]LogConfig: Set CVar [[r.DistanceFields.DefaultVoxelDensity:0.200000]]
+[2026.10.28-02.29.45:847][  0]LogConfig: Set CVar [[r.Nanite.ProjectEnabled:1]]
+[2026.10.28-02.29.45:848][  0]LogConfig: Set CVar [[r.AllowStaticLighting:0]]
+[2026.10.28-02.29.45:848][  0]LogConfig: Set CVar [[r.NormalMapsForStaticLighting:0]]
+[2026.10.28-02.29.45:848][  0]LogConfig: Set CVar [[r.ForwardShading:0]]
+[2026.10.28-02.29.45:848][  0]LogConfig: Set CVar [[r.VertexFoggingForOpaque:1]]
+[2026.10.28-02.29.45:848][  0]LogConfig: Set CVar [[r.SeparateTranslucency:1]]
+[2026.10.28-02.29.45:848][  0]LogConfig: Set CVar [[r.TranslucentSortPolicy:0]]
+[2026.10.28-02.29.45:848][  0]LogConfig: CVar [[TranslucentSortAxis:(X=0.000000,Y=-1.000000,Z=0.000000)]] deferred - dummy variable created
+[2026.10.28-02.29.45:848][  0]LogConfig: Set CVar [[r.LocalFogVolume.ApplyOnTranslucent:0]]
+[2026.10.28-02.29.45:848][  0]LogConfig: Set CVar [[xr.VRS.FoveationLevel:0]]
+[2026.10.28-02.29.45:848][  0]LogConfig: Set CVar [[xr.VRS.DynamicFoveation:0]]
+[2026.10.28-02.29.45:848][  0]LogConfig: Set CVar [[r.CustomDepth:1]]
+[2026.10.28-02.29.45:848][  0]LogConfig: Set CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2026.10.28-02.29.45:848][  0]LogConfig: Set CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2026.10.28-02.29.45:848][  0]LogConfig: Set CVar [[r.Deferred.SupportPrimitiveAlphaHoldout:0]]
+[2026.10.28-02.29.45:848][  0]LogConfig: Set CVar [[r.DefaultFeature.Bloom:1]]
+[2026.10.28-02.29.45:848][  0]LogConfig: Set CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2026.10.28-02.29.45:848][  0]LogConfig: Set CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2026.10.28-02.29.45:849][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure:0]]
+[2026.10.28-02.29.45:849][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2026.10.28-02.29.45:849][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.Bias:1.000000]]
+[2026.10.28-02.29.45:849][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2026.10.28-02.29.45:849][  0]LogConfig: Set CVar [[r.DefaultFeature.LocalExposure.HighlightContrastScale:0.800000]]
+[2026.10.28-02.29.45:849][  0]LogConfig: Set CVar [[r.DefaultFeature.LocalExposure.ShadowContrastScale:0.800000]]
+[2026.10.28-02.29.45:849][  0]LogConfig: Set CVar [[r.DefaultFeature.MotionBlur:0]]
+[2026.10.28-02.29.45:849][  0]LogConfig: Set CVar [[r.DefaultFeature.LensFlare:0]]
+[2026.10.28-02.29.45:849][  0]LogConfig: Set CVar [[r.TemporalAA.Upsampling:1]]
+[2026.10.28-02.29.45:849][  0]LogConfig: Set CVar [[r.AntiAliasingMethod:0]]
+[2026.10.28-02.29.45:849][  0]LogConfig: Set CVar [[r.MSAACount:4]]
+[2026.10.28-02.29.45:849][  0]LogConfig: Set CVar [[r.DefaultFeature.LightUnits:1]]
+[2026.10.28-02.29.45:849][  0]LogConfig: Set CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2026.10.28-02.29.45:849][  0]LogConfig: Set CVar [[r.ScreenPercentage.Default:100.000000]]
+[2026.10.28-02.29.45:849][  0]LogConfig: Set CVar [[r.ScreenPercentage.Default.Desktop.Mode:1]]
+[2026.10.28-02.29.45:849][  0]LogConfig: Set CVar [[r.ScreenPercentage.Default.Mobile.Mode:0]]
+[2026.10.28-02.29.45:849][  0]LogConfig: Set CVar [[r.ScreenPercentage.Default.VR.Mode:0]]
+[2026.10.28-02.29.45:849][  0]LogConfig: Set CVar [[r.ScreenPercentage.Default.PathTracer.Mode:0]]
+[2026.10.28-02.29.45:849][  0]LogConfig: Set CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2026.10.28-02.29.45:849][  0]LogConfig: Set CVar [[r.StencilForLODDither:0]]
+[2026.10.28-02.29.45:849][  0]LogConfig: Set CVar [[r.EarlyZPass:3]]
+[2026.10.28-02.29.45:850][  0]LogConfig: Set CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2026.10.28-02.29.45:850][  0]LogConfig: Set CVar [[r.Shadow.CSMCaching:0]]
+[2026.10.28-02.29.45:850][  0]LogConfig: Set CVar [[r.DBuffer:1]]
+[2026.10.28-02.29.45:850][  0]LogConfig: Set CVar [[r.ClearSceneMethod:1]]
+[2026.10.28-02.29.45:850][  0]LogConfig: Set CVar [[r.VelocityOutputPass:0]]
+[2026.10.28-02.29.45:850][  0]LogConfig: Set CVar [[r.Velocity.EnableVertexDeformation:2]]
+[2026.10.28-02.29.45:850][  0]LogConfig: Set CVar [[r.SelectiveBasePassOutputs:0]]
+[2026.10.28-02.29.45:850][  0]LogConfig: CVar [[bDefaultParticleCutouts:0]] deferred - dummy variable created
+[2026.10.28-02.29.45:850][  0]LogConfig: Set CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2026.10.28-02.29.45:850][  0]LogConfig: Set CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2026.10.28-02.29.45:850][  0]LogConfig: Set CVar [[r.AllowGlobalClipPlane:0]]
+[2026.10.28-02.29.45:850][  0]LogConfig: Set CVar [[r.GBufferFormat:1]]
+[2026.10.28-02.29.45:850][  0]LogConfig: Set CVar [[r.MorphTarget.Mode:1]]
+[2026.10.28-02.29.45:850][  0]LogConfig: Set CVar [[r.MorphTarget.MaxBlendWeight:5.000000]]
+[2026.10.28-02.29.45:850][  0]LogConfig: Set CVar [[r.SupportSkyAtmosphere:1]]
+[2026.10.28-02.29.45:850][  0]LogConfig: Set CVar [[r.SupportSkyAtmosphereAffectsHeightFog:1]]
+[2026.10.28-02.29.45:850][  0]LogConfig: Set CVar [[r.SupportExpFogMatchesVolumetricFog:0]]
+[2026.10.28-02.29.45:850][  0]LogConfig: Set CVar [[r.SupportLocalFogVolumes:1]]
+[2026.10.28-02.29.45:850][  0]LogConfig: Set CVar [[r.SupportCloudShadowOnForwardLitTranslucent:0]]
+[2026.10.28-02.29.45:850][  0]LogConfig: Set CVar [[r.LightFunctionAtlas.Format:0]]
+[2026.10.28-02.29.45:850][  0]LogConfig: Set CVar [[r.VolumetricFog.LightFunction:1]]
+[2026.10.28-02.29.45:850][  0]LogConfig: Set CVar [[r.Deferred.UsesLightFunctionAtlas:1]]
+[2026.10.28-02.29.45:850][  0]LogConfig: Set CVar [[r.SingleLayerWater.UsesLightFunctionAtlas:0]]
+[2026.10.28-02.29.45:851][  0]LogConfig: Set CVar [[r.Translucent.UsesLightFunctionAtlas:0]]
+[2026.10.28-02.29.45:851][  0]LogConfig: Set CVar [[r.Translucent.UsesIESProfiles:0]]
+[2026.10.28-02.29.45:851][  0]LogConfig: Set CVar [[r.Translucent.UsesRectLights:0]]
+[2026.10.28-02.29.45:851][  0]LogConfig: Set CVar [[vr.InstancedStereo:0]]
+[2026.10.28-02.29.45:851][  0]LogConfig: Set CVar [[r.MobileHDR:1]]
+[2026.10.28-02.29.45:851][  0]LogConfig: Set CVar [[vr.MobileMultiView:0]]
+[2026.10.28-02.29.45:851][  0]LogConfig: Set CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2026.10.28-02.29.45:851][  0]LogConfig: Set CVar [[vr.RoundRobinOcclusion:0]]
+[2026.10.28-02.29.45:851][  0]LogConfig: Set CVar [[r.MeshStreaming:0]]
+[2026.10.28-02.29.45:851][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes:1]]
+[2026.10.28-02.29.45:851][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows:0]]
+[2026.10.28-02.29.45:851][  0]LogConfig: Set CVar [[r.Translucency.HeterogeneousVolumes:0]]
+[2026.10.28-02.29.45:851][  0]LogConfig: Set CVar [[r.WireframeCullThreshold:5.000000]]
+[2026.10.28-02.29.45:851][  0]LogConfig: Set CVar [[r.SupportStationarySkylight:1]]
+[2026.10.28-02.29.45:852][  0]LogConfig: Set CVar [[r.SupportLowQualityLightmaps:1]]
+[2026.10.28-02.29.45:852][  0]LogConfig: Set CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2026.10.28-02.29.45:852][  0]LogConfig: Set CVar [[r.Shadow.TranslucentPerObject.ProjectEnabled:0]]
+[2026.10.28-02.29.45:852][  0]LogConfig: Set CVar [[r.Water.SingleLayerWater.SupportCloudShadow:0]]
+[2026.10.28-02.29.45:852][  0]LogConfig: Set CVar [[r.Substrate:0]]
+[2026.10.28-02.29.45:852][  0]LogConfig: Set CVar [[r.Substrate.OpaqueMaterialRoughRefraction:0]]
+[2026.10.28-02.29.45:852][  0]LogConfig: Set CVar [[r.Refraction.Blur:1]]
+[2026.10.28-02.29.45:852][  0]LogConfig: Set CVar [[r.Substrate.Debug.AdvancedVisualizationShaders:0]]
+[2026.10.28-02.29.45:852][  0]LogConfig: Set CVar [[r.Material.RoughDiffuse:0]]
+[2026.10.28-02.29.45:852][  0]LogConfig: Set CVar [[r.Material.EnergyConservation:0]]
+[2026.10.28-02.29.45:852][  0]LogConfig: Set CVar [[r.Material.DefaultAutoMaterialUsage:1]]
+[2026.10.28-02.29.45:852][  0]LogConfig: Set CVar [[r.OIT.SortedPixels:0]]
+[2026.10.28-02.29.45:852][  0]LogConfig: Set CVar [[r.HairStrands.LODMode:1]]
+[2026.10.28-02.29.45:853][  0]LogConfig: Set CVar [[r.SkinCache.CompileShaders:1]]
+[2026.10.28-02.29.45:853][  0]LogConfig: Set CVar [[r.VRS.Support:1]]
+[2026.10.28-02.29.45:853][  0]LogConfig: Set CVar [[r.SkinCache.SkipCompilingGPUSkinVF:0]]
+[2026.10.28-02.29.45:853][  0]LogConfig: Set CVar [[r.SkinCache.DefaultBehavior:1]]
+[2026.10.28-02.29.45:853][  0]LogConfig: Set CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2026.10.28-02.29.45:853][  0]LogConfig: Set CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2026.10.28-02.29.45:853][  0]LogConfig: Set CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2026.10.28-02.29.45:853][  0]LogConfig: Set CVar [[r.Mobile.Forward.EnableLocalLights:1]]
+[2026.10.28-02.29.45:853][  0]LogConfig: Set CVar [[r.Mobile.Forward.EnableClusteredReflections:0]]
+[2026.10.28-02.29.45:853][  0]LogConfig: Set CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2026.10.28-02.29.45:853][  0]LogConfig: Set CVar [[r.Mobile.EnableMovableSpotlightsShadow:0]]
+[2026.10.28-02.29.45:853][  0]LogConfig: Set CVar [[r.GPUSkin.Support16BitBoneIndex:0]]
+[2026.10.28-02.29.45:853][  0]LogConfig: Set CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2026.10.28-02.29.45:853][  0]LogConfig: Set CVar [[r.SupportDepthOnlyIndexBuffers:0]]
+[2026.10.28-02.29.45:854][  0]LogConfig: Set CVar [[r.SupportReversedIndexBuffers:0]]
+[2026.10.28-02.29.45:854][  0]LogConfig: Set CVar [[r.Mobile.AmbientOcclusion:0]]
+[2026.10.28-02.29.45:854][  0]LogConfig: Set CVar [[r.Mobile.DBuffer:0]]
+[2026.10.28-02.29.45:854][  0]LogConfig: Set CVar [[r.GPUSkin.UnlimitedBoneInfluences:0]]
+[2026.10.28-02.29.45:854][  0]LogConfig: Set CVar [[r.GPUSkin.AlwaysUseDeformerForUnlimitedBoneInfluences:0]]
+[2026.10.28-02.29.45:854][  0]LogConfig: Set CVar [[r.GPUSkin.UnlimitedBoneInfluencesThreshold:8]]
+[2026.10.28-02.29.45:854][  0]LogConfig: CVar [[DefaultBoneInfluenceLimit:(Default=0,PerPlatform=())]] deferred - dummy variable created
+[2026.10.28-02.29.45:854][  0]LogConfig: CVar [[r.Mobile.PlanarReflectionMode:0]] deferred - dummy variable created
+[2026.10.28-02.29.45:854][  0]LogConfig: Set CVar [[r.Mobile.ScreenSpaceReflections:0]]
+[2026.10.28-02.29.45:854][  0]LogConfig: Set CVar [[r.Mobile.SupportsGen4TAA:1]]
+[2026.10.28-02.29.45:854][  0]LogConfig: CVar [[bStreamSkeletalMeshLODs:(Default=False,PerPlatform=())]] deferred - dummy variable created
+[2026.10.28-02.29.45:854][  0]LogConfig: CVar [[bDiscardSkeletalMeshOptionalLODs:(Default=False,PerPlatform=())]] deferred - dummy variable created
+[2026.10.28-02.29.45:854][  0]LogConfig: CVar [[VisualizeCalibrationCustomMaterialPath:None]] deferred - dummy variable created
+[2026.10.28-02.29.45:854][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2026.10.28-02.29.45:854][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2026.10.28-02.29.45:855][  0]LogConfig: Set CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2026.10.28-02.29.45:855][  0]LogConfig: Set CVar [[s.AsyncLoadingThreadEnabled:1]]
+[2026.10.28-02.29.45:855][  0]LogConfig: Set CVar [[s.EventDrivenLoaderEnabled:1]]
+[2026.10.28-02.29.45:855][  0]LogConfig: Set CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2026.10.28-02.29.45:855][  0]LogConfig: Set CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2026.10.28-02.29.45:855][  0]LogConfig: Set CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2026.10.28-02.29.45:855][  0]LogConfig: Set CVar [[s.UseBackgroundLevelStreaming:1]]
+[2026.10.28-02.29.45:855][  0]LogConfig: Set CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2026.10.28-02.29.45:855][  0]LogConfig: Set CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2026.10.28-02.29.45:855][  0]LogConfig: Set CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2026.10.28-02.29.45:855][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2026.10.28-02.29.45:855][  0]LogConfig: Set CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2026.10.28-02.29.45:855][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2026.10.28-02.29.45:855][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2026.10.28-02.29.45:855][  0]LogConfig: Set CVar [[s.FlushStreamingOnExit:1]]
+[2026.10.28-02.29.45:855][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2026.10.28-02.29.45:855][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2026.10.28-02.29.45:855][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2026.10.28-02.29.45:856][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2026.10.28-02.29.45:856][  0]LogConfig: Set CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2026.10.28-02.29.45:856][  0]LogConfig: Set CVar [[gc.FlushStreamingOnGC:0]]
+[2026.10.28-02.29.45:856][  0]LogConfig: Set CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2026.10.28-02.29.45:856][  0]LogConfig: Set CVar [[gc.AllowParallelGC:1]]
+[2026.10.28-02.29.45:856][  0]LogConfig: Set CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2026.10.28-02.29.45:856][  0]LogConfig: Set CVar [[gc.MaxObjectsInEditor:25165824]]
+[2026.10.28-02.29.45:856][  0]LogConfig: Set CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2026.10.28-02.29.45:856][  0]LogConfig: Set CVar [[gc.CreateGCClusters:1]]
+[2026.10.28-02.29.45:856][  0]LogConfig: Set CVar [[gc.MinGCClusterSize:5]]
+[2026.10.28-02.29.45:856][  0]LogConfig: Set CVar [[gc.AssetClustreringEnabled:0]]
+[2026.10.28-02.29.45:856][  0]LogConfig: Set CVar [[gc.ActorClusteringEnabled:0]]
+[2026.10.28-02.29.45:856][  0]LogConfig: Set CVar [[gc.VerifyUObjectsAreNotFGCObjects:0]]
+[2026.10.28-02.29.45:856][  0]LogConfig: Set CVar [[gc.GarbageEliminationEnabled:1]]
+[2026.10.28-02.29.45:856][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2026.10.28-02.29.45:856][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2026.10.28-02.29.45:857][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2026.10.28-02.29.45:857][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2026.10.28-02.29.45:858][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:2]] deferred - dummy variable created
+[2026.10.28-02.29.45:858][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2026.10.28-02.29.45:858][  0]LogConfig: CVar [[DefaultASTCQualityBySizeHQ:4]] deferred - dummy variable created
+[2026.10.28-02.29.45:859][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2026.10.28-02.29.45:859][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2026.10.28-02.29.45:859][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2026.10.28-02.29.45:859][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2026.10.28-02.29.45:859][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2026.10.28-02.29.45:859][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2026.10.28-02.29.45:859][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2026.10.28-02.29.45:859][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2026.10.28-02.29.45:859][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2026.10.28-02.29.45:859][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2026.10.28-02.29.45:859][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2026.10.28-02.29.45:859][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2026.10.28-02.29.45:859][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2026.10.28-02.29.45:859][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2026.10.28-02.29.45:860][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2026.10.28-02.29.45:860][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2026.10.28-02.29.45:860][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2026.10.28-02.29.45:860][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2026.10.28-02.29.45:860][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:AmbientSound]] deferred - dummy variable created
+[2026.10.28-02.29.45:860][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2026.10.28-02.29.45:860][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2026.10.28-02.29.45:860][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2026.10.28-02.29.45:860][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2026.10.28-02.29.45:860][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2026.10.28-02.29.45:860][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2026.10.28-02.29.45:860][  0]LogConfig: CVar [[VersionedIntRValues:r.MaterialEditor.LWCTruncateMode]] deferred - dummy variable created
+[2026.10.28-02.29.45:860][  0]LogConfig: CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
+[2026.10.28-02.29.45:860][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2026.10.28-02.29.45:860][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2026.10.28-02.29.45:860][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2026.10.28-02.29.45:860][  0]LogConfig: CVar [[VersionedIntRValues:r.Mobile.DBuffer]] deferred - dummy variable created
+[2026.10.28-02.29.45:860][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2026.10.28-02.29.45:860][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2026.10.28-02.29.45:861][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2026.10.28-02.29.45:861][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2026.10.28-02.29.45:861][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2026.10.28-02.29.45:861][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2026.10.28-02.29.45:861][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2026.10.28-02.29.45:861][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2026.10.28-02.29.45:861][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2026.10.28-02.29.45:861][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2026.10.28-02.29.45:861][  0]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2026.10.28-02.29.45:861][  0]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+[2026.10.28-02.29.45:862][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2026.10.28-02.29.45:862][  0]LogConfig: Set CVar [[r.FXAA.Quality:4]]
+[2026.10.28-02.29.45:862][  0]LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
+[2026.10.28-02.29.45:862][  0]LogConfig: Set CVar [[r.TSR.History.R11G11B10:1]]
+[2026.10.28-02.29.45:862][  0]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:200]]
+[2026.10.28-02.29.45:862][  0]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
+[2026.10.28-02.29.45:862][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2026.10.28-02.29.45:862][  0]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2026.10.28-02.29.45:862][  0]LogConfig: Set CVar [[r.TSR.ReprojectionField:1]]
+[2026.10.28-02.29.45:862][  0]LogConfig: Set CVar [[r.TSR.Resurrection:1]]
+[2026.10.28-02.29.45:862][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2026.10.28-02.29.45:863][  0]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2026.10.28-02.29.45:863][  0]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2026.10.28-02.29.45:863][  0]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2026.10.28-02.29.45:863][  0]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2026.10.28-02.29.45:863][  0]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2026.10.28-02.29.45:863][  0]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2026.10.28-02.29.45:863][  0]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2026.10.28-02.29.45:863][  0]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2026.10.28-02.29.45:863][  0]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2026.10.28-02.29.45:863][  0]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2026.10.28-02.29.45:863][  0]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2026.10.28-02.29.45:863][  0]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2026.10.28-02.29.45:863][  0]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2026.10.28-02.29.45:863][  0]LogConfig: Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2026.10.28-02.29.45:863][  0]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2026.10.28-02.29.45:863][  0]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2026.10.28-02.29.45:864][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2026.10.28-02.29.45:864][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2026.10.28-02.29.45:864][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-1.5]]
+[2026.10.28-02.29.45:864][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2026.10.28-02.29.45:864][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2026.10.28-02.29.45:864][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2026.10.28-02.29.45:864][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2026.10.28-02.29.45:864][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2026.10.28-02.29.45:864][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2026.10.28-02.29.45:864][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2026.10.28-02.29.45:864][  0]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2026.10.28-02.29.45:864][  0]LogConfig: Set CVar [[r.SkylightIntensityMultiplier:1.0]]
+[2026.10.28-02.29.45:864][  0]LogConfig: Set CVar [[r.AOQuality:2]]
+[2026.10.28-02.29.45:864][  0]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2026.10.28-02.29.45:864][  0]LogConfig: Set CVar [[r.LumenScene.DirectLighting.MaxLightsPerTile:8]]
+[2026.10.28-02.29.45:865][  0]LogConfig: Set CVar [[r.LumenScene.DirectLighting.UpdateFactor:32]]
+[2026.10.28-02.29.45:865][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.UpdateFactor:64]]
+[2026.10.28-02.29.45:865][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+[2026.10.28-02.29.45:865][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+[2026.10.28-02.29.45:865][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+[2026.10.28-02.29.45:865][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+[2026.10.28-02.29.45:865][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:100]]
+[2026.10.28-02.29.45:865][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+[2026.10.28-02.29.45:865][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.NumAdaptiveProbes:8]]
+[2026.10.28-02.29.45:865][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TracingOctahedronResolution:8]]
+[2026.10.28-02.29.45:865][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+[2026.10.28-02.29.45:865][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+[2026.10.28-02.29.45:865][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:1]]
+[2026.10.28-02.29.45:865][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+[2026.10.28-02.29.45:865][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth:1]]
+[2026.10.28-02.29.45:866][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HardwareRayTracing:0]]
+[2026.10.28-02.29.45:866][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.BentNormal:1]]
+[2026.10.28-02.29.45:866][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+[2026.10.28-02.29.45:866][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+[2026.10.28-02.29.45:866][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TracingOctahedronResolution:3]]
+[2026.10.28-02.29.45:866][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:8]]
+[2026.10.28-02.29.45:866][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:70]]
+[2026.10.28-02.29.45:866][  0]LogConfig: Set CVar [[r.RayTracing.Scene.BuildMode:1]]
+[2026.10.28-02.29.45:866][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2026.10.28-02.29.45:866][  0]LogConfig: Set CVar [[r.SSR.Quality:3]]
+[2026.10.28-02.29.45:866][  0]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
+[2026.10.28-02.29.45:866][  0]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2026.10.28-02.29.45:866][  0]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:1]]
+[2026.10.28-02.29.45:866][  0]LogConfig: Set CVar [[r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0.4]]
+[2026.10.28-02.29.45:866][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.MaxRoughnessToEvaluateRoughSpecularForFoliage:0.8]]
+[2026.10.28-02.29.45:866][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.NumSamples:5]]
+[2026.10.28-02.29.45:867][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.MinWeight:0]]
+[2026.10.28-02.29.45:867][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
+[2026.10.28-02.29.45:867][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Enable:0]]
+[2026.10.28-02.29.45:867][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2026.10.28-02.29.45:867][  0]LogConfig: Set CVar [[r.MotionBlurQuality:4]]
+[2026.10.28-02.29.45:867][  0]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2026.10.28-02.29.45:867][  0]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2026.10.28-02.29.45:867][  0]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2026.10.28-02.29.45:867][  0]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2026.10.28-02.29.45:867][  0]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2026.10.28-02.29.45:867][  0]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2026.10.28-02.29.45:867][  0]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2026.10.28-02.29.45:867][  0]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2026.10.28-02.29.45:867][  0]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2026.10.28-02.29.45:867][  0]LogConfig: Set CVar [[r.EyeAdaptationQuality:2]]
+[2026.10.28-02.29.45:867][  0]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2026.10.28-02.29.45:867][  0]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:50.000]]
+[2026.10.28-02.29.45:867][  0]LogConfig: Set CVar [[r.FastBlurThreshold:100]]
+[2026.10.28-02.29.45:867][  0]LogConfig: Set CVar [[r.Upscale.Quality:3]]
+[2026.10.28-02.29.45:867][  0]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2026.10.28-02.29.45:867][  0]LogConfig: Set CVar [[r.Filter.SizeScale:1]]
+[2026.10.28-02.29.45:867][  0]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2026.10.28-02.29.45:869][  0]LogConfig: Set CVar [[r.DOF.Gather.ResolutionDivisor:2         ; lower gathering resolution]]
+[2026.10.28-02.29.45:869][  0]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2026.10.28-02.29.45:869][  0]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2026.10.28-02.29.45:869][  0]LogConfig: Set CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2026.10.28-02.29.45:869][  0]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2026.10.28-02.29.45:869][  0]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2026.10.28-02.29.45:869][  0]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2026.10.28-02.29.45:869][  0]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2026.10.28-02.29.45:869][  0]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2026.10.28-02.29.45:869][  0]LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2026.10.28-02.29.45:869][  0]LogConfig: Set CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2026.10.28-02.29.45:869][  0]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2026.10.28-02.29.45:869][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2026.10.28-02.29.45:869][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2026.10.28-02.29.45:869][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2026.10.28-02.29.45:869][  0]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2026.10.28-02.29.45:869][  0]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2026.10.28-02.29.45:869][  0]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2026.10.28-02.29.45:869][  0]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2026.10.28-02.29.45:870][  0]LogConfig: Set CVar [[r.MaxAnisotropy:8]]
+[2026.10.28-02.29.45:870][  0]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2026.10.28-02.29.45:870][  0]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2026.10.28-02.29.45:870][  0]LogConfig: Set CVar [[r.Streaming.PoolSize:1000]]
+[2026.10.28-02.29.45:870][  0]LogConfig: Set CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2026.10.28-02.29.45:870][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2026.10.28-02.29.45:870][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2026.10.28-02.29.45:870][  0]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2026.10.28-02.29.45:870][  0]LogConfig: Set CVar [[r.SceneColorFormat:4]]
+[2026.10.28-02.29.45:870][  0]LogConfig: Set CVar [[r.DetailMode:3]]
+[2026.10.28-02.29.45:870][  0]LogConfig: Set CVar [[r.TranslucencyVolumeBlur:1]]
+[2026.10.28-02.29.45:870][  0]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2026.10.28-02.29.45:870][  0]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2026.10.28-02.29.45:871][  0]LogConfig: Set CVar [[r.SSS.SampleSet:2]]
+[2026.10.28-02.29.45:871][  0]LogConfig: Set CVar [[r.SSS.Quality:1]]
+[2026.10.28-02.29.45:871][  0]LogConfig: Set CVar [[r.SSS.HalfRes:0]]
+[2026.10.28-02.29.45:871][  0]LogConfig: Set CVar [[r.SSGI.Quality:3]]
+[2026.10.28-02.29.45:871][  0]LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
+[2026.10.28-02.29.45:871][  0]LogConfig: Set CVar [[r.ParticleLightQuality:2]]
+[2026.10.28-02.29.45:871][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2026.10.28-02.29.45:871][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2026.10.28-02.29.45:871][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2026.10.28-02.29.45:871][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2026.10.28-02.29.45:871][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2026.10.28-02.29.45:871][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2026.10.28-02.29.45:871][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2026.10.28-02.29.45:871][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2026.10.28-02.29.45:871][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2026.10.28-02.29.45:871][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2026.10.28-02.29.45:871][  0]LogConfig: Set CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2026.10.28-02.29.45:871][  0]LogConfig: Set CVar [[fx.Niagara.QualityLevel:3]]
+[2026.10.28-02.29.45:872][  0]LogConfig: Set CVar [[r.Refraction.OffsetQuality:1]]
+[2026.10.28-02.29.45:872][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.DownsampleFactor:2]]
+[2026.10.28-02.29.45:872][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.MaxStepCount:256]]
+[2026.10.28-02.29.45:872][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.Resolution:256]]
+[2026.10.28-02.29.45:872][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.MaxSampleCount:8]]
+[2026.10.28-02.29.45:872][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.UseExistenceMask:0]]
+[2026.10.28-02.29.45:872][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2026.10.28-02.29.45:872][  0]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+[2026.10.28-02.29.45:872][  0]LogConfig: Set CVar [[grass.DensityScale:1.0]]
+[2026.10.28-02.29.45:872][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2026.10.28-02.29.45:872][  0]LogConfig: Set CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2026.10.28-02.29.45:872][  0]LogConfig: Set CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2026.10.28-02.29.45:872][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2026.10.28-02.29.45:872][  0]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2026.10.28-02.29.45:872][  0]LogConfig: Applying CVar settings from Section [LandscapeQuality@3] File [Scalability]
+[2026.10.28-02.29.45:873][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2026.10.28-02.29.45:874][  0]LogHAL: Display: Platform has ~ 32 GB [33999548416 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2026.10.28-02.29.45:875][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Windows]
+[2026.10.28-02.29.45:875][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2026.10.28-02.29.45:875][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.RasterizationMode:Bitmap -> Msdf]]
+[2026.10.28-02.29.45:875][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.ResolutionLevel:2 -> 2]]
+[2026.10.28-02.29.45:875][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2026.10.28-02.29.45:875][  0]LogConfig: Set CVar [[r.DumpShaderDebugInfo:2]]
+[2026.10.28-02.29.45:876][  0]LogConfig: Set CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2026.10.28-02.29.45:876][  0]LogConfig: Set CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2026.10.28-02.29.45:876][  0]LogConfig: CVar [[ds.CADTranslator.Meshing.ActivateThinZoneMeshing:0]] deferred - dummy variable created
+[2026.10.28-02.29.45:876][  0]LogConfig: CVar [[ds.CADTranslator.Stitching.RemoveThinFaces:0]] deferred - dummy variable created
+[2026.10.28-02.29.45:876][  0]LogConfig: Applying CVar settings from Section [Startup_Windows] File [../../../Engine/Config/ConsoleVariables.ini]
+[2026.10.28-02.29.45:876][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2026.10.28-02.29.45:876][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Git/CX/Saved/Config/WindowsEditor/Editor.ini]
+[2026.10.28-02.29.45:876][  0]LogInit: Computer: DESKTOP-DEVVN5B
+[2026.10.28-02.29.45:876][  0]LogInit: User: User
+[2026.10.28-02.29.45:876][  0]LogInit: CPU Page size=4096, Cores=6
+[2026.10.28-02.29.45:876][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2026.10.28-02.29.45:876][  0]LogMemory: Memory total: Physical=31.7GB (32GB approx) Virtual=40.1GB
+[2026.10.28-02.29.45:876][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2026.10.28-02.29.45:876][  0]LogMemory: Process Physical Memory: 539.52 MB used, 539.52 MB peak
+[2026.10.28-02.29.45:876][  0]LogMemory: Process Virtual Memory: 472.70 MB used, 472.70 MB peak
+[2026.10.28-02.29.45:877][  0]LogMemory: Physical Memory: 20440.55 MB used,  11983.95 MB free, 32424.50 MB total
+[2026.10.28-02.29.45:877][  0]LogMemory: Virtual Memory: 36289.87 MB used,  4773.20 MB free, 41063.07 MB total
+[2026.10.28-02.29.45:877][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2026.10.28-02.29.45:879][  0]LogWindows: WindowsPlatformFeatures disabled or dedicated server build
+[2026.10.28-02.29.45:880][  0]LogChaosDD: Chaos Debug Draw Startup
+[2026.10.28-02.29.45:880][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2026.10.28-02.29.45:880][  0]LogInit: Using OS detected language (ko-KR).
+[2026.10.28-02.29.45:880][  0]LogInit: Using OS detected locale (ko-KR).
+[2026.10.28-02.29.45:883][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so 'ko' will be used for the language.
+[2026.10.28-02.29.46:254][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.10.28-02.29.46:280][  0]LogVRS: Current RHI does not support Variable Rate Shading
+[2026.10.28-02.29.46:281][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="Null"
+[2026.10.28-02.29.46:282][  0]LogCsvProfiler: Display: Metadata set : rhiname="Null"
+[2026.10.28-02.29.46:282][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+[2026.10.28-02.29.46:282][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="PCD3D_SM6"
+[2026.10.28-02.29.46:282][  0]LogInit: Initializing FReadOnlyCVARCache
+[2026.10.28-02.29.46:284][  0]LogTurnkeySupport: Running Turnkey SDK detection: ' -ScriptsForProject="C:/Git/CX/CX.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Git/CX/Intermediate/TurnkeyReport_0.log" -log="C:/Git/CX/Intermediate/TurnkeyLog_0.log" -project="C:/Git/CX/CX.uproject"  -platform=all'
+[2026.10.28-02.29.46:284][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.6/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Git/CX/CX.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Git/CX/Intermediate/TurnkeyReport_0.log" -log="C:/Git/CX/Intermediate/TurnkeyLog_0.log" -project="C:/Git/CX/CX.uproject"  -platform=all" ]
+[2026.10.28-02.29.46:296][  0]LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+[2026.10.28-02.29.46:296][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2026.10.28-02.29.46:296][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2026.10.28-02.29.46:296][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2026.10.28-02.29.46:296][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2026.10.28-02.29.46:296][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2026.10.28-02.29.46:297][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.13
+[2026.10.28-02.29.46:298][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.13.dll
+[2026.10.28-02.29.46:299][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2026.10.28-02.29.46:299][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2026.10.28-02.29.46:325][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2026.10.28-02.29.46:325][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2026.10.28-02.29.46:325][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2026.10.28-02.29.46:325][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2026.10.28-02.29.46:325][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2026.10.28-02.29.46:330][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2026.10.28-02.29.46:357][  0]LogRendererCore: Ray tracing is disabled. Reason: not supported by current RHI.
+[2026.10.28-02.29.46:359][  0]LogDerivedDataCache: Display: Memory: Max Cache Size: -1 MB
+[2026.10.28-02.29.46:360][  0]LogDerivedDataCache: FDerivedDataBackendGraph: Pak pak cache file ../../../../../../Git/CX/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2026.10.28-02.29.46:361][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2026.10.28-02.29.46:362][  0]LogDerivedDataCache: FDerivedDataBackendGraph: CompressedPak pak cache file ../../../../../../Git/CX/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2026.10.28-02.29.46:362][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2026.10.28-02.29.46:546][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1350 MiB)
+[2026.10.28-02.29.46:546][  0]LogDerivedDataCache: FDerivedDataBackendGraph: EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2026.10.28-02.29.46:547][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2026.10.28-02.29.46:548][  0]LogZenServiceInstance: Found subprocess environment variable UE-ZenSubprocessDataPath=C:/Users/User/AppData/Local/UnrealEngine/Common/Zen/Data
+[2026.10.28-02.29.46:548][  0]LogZenServiceInstance: InTree version at 'C:/Program Files/Epic Games/UE_5.6/Engine/Binaries/Win64/zenserver.exe' is '5.6.6-202504241958-windows-x64-release-f090a03'
+[2026.10.28-02.29.46:548][  0]LogZenServiceInstance: Installed version at 'C:/Users/User/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is '5.8.13-202605190912-windows-x64-release-094f62c2'
+[2026.10.28-02.29.46:549][  0]LogZenServiceInstance: Found existing instance running on port 8558 matching our settings, no actions needed
+[2026.10.28-02.29.47:354][  0]LogTurnkeySupport: Completed SDK detection: ExitCode = 0
+[2026.10.28-02.29.47:354][  0]LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at [::1]:8558 status: OK!.
+[2026.10.28-02.29.47:354][  0]LogZenServiceInstance: Local ZenServer AutoLaunch initialization completed in 0.807 seconds
+[2026.10.28-02.29.47:356][  0]LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at http://[::1]:8558/ with namespace ue.ddc status: OK!.
+[2026.10.28-02.29.47:366][  0]LogDerivedDataCache: C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Speed tests took 0.01 seconds.
+[2026.10.28-02.29.47:366][  0]LogDerivedDataCache: Display: C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.02ms. RandomReadSpeed=1633.32MBs, RandomWriteSpeed=199.15MBs. Assigned SpeedClass 'Local'
+[2026.10.28-02.29.47:369][  0]LogDerivedDataCache: Local: Using data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: DeleteOnly
+[2026.10.28-02.29.47:369][  0]LogDerivedDataCache: ZenShared: Disabled because Host is set to 'None'
+[2026.10.28-02.29.47:371][  0]LogDerivedDataCache: Unable to find inner node ZenShared for hierarchy Hierarchy.
+[2026.10.28-02.29.47:371][  0]LogDerivedDataCache: Shared: Disabled because no path is configured.
+[2026.10.28-02.29.47:371][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2026.10.28-02.29.47:371][  0]LogDerivedDataCache: Cloud: Disabled because Host is set to 'None'
+[2026.10.28-02.29.47:371][  0]LogDerivedDataCache: Unable to find inner node Cloud for hierarchy Hierarchy.
+[2026.10.28-02.29.47:373][  0]LogShaderCompilers: Guid format shader working directory is 20 characters bigger than the processId version (../../../../../../Git/CX/Intermediate/Shaders/WorkingDirectory/30200/).
+[2026.10.28-02.29.47:373][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/2D730A424CF9EFE9730BDF9890D6BDA9/'.
+[2026.10.28-02.29.47:373][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2026.10.28-02.29.47:373][  0]LogShaderCompilers: Display: Using 9 local workers for shader compilation
+[2026.10.28-02.29.47:380][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Git/CX/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2026.10.28-02.29.47:381][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.10.28-02.29.47:983][  0]LogInit: Using OS detected language (ko-KR).
+[2026.10.28-02.29.47:983][  0]LogInit: Using OS detected locale (ko-KR).
+[2026.10.28-02.29.47:984][  0]LogTextLocalizationManager: No localization for 'ko-KR' exists, so 'en' will be used for the language.
+[2026.10.28-02.29.47:984][  0]LogTextLocalizationManager: No localization for 'ko-KR' exists, so 'en' will be used for the locale.
+[2026.10.28-02.29.47:985][  0]LogAssetRegistry: FAssetRegistry took 0.0005 seconds to start up
+[2026.10.28-02.29.48:230][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2026.10.28-02.29.48:231][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2026.10.28-02.29.48:257][  0]LogDeviceProfileManager: Active device profile: [000001B047B77300][000001B047EB2800 66] WindowsEditor
+[2026.10.28-02.29.48:257][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2026.10.28-02.29.48:260][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.28-02.29.48:263][  0]LogPackageLocalizationCache: Processed 73 localized package path(s) for 1 prioritized culture(s) in 0.003001 seconds
+[2026.10.28-02.29.48:273][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2026.10.28-02.29.48:273][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2026.10.28-02.29.48:274][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2026.10.28-02.29.48:277][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: WaitingForIo) recursively from another package /Engine/EditorMaterials/MatineeCam_mat (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.28-02.29.48:277][  0]LogStreaming: Display: Package /Engine/EditorMaterials/MatineeCam_mat is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness because of a recursive sync load
+[2026.10.28-02.29.48:278][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: DeferredPostLoad) recursively from another package /Engine/EditorMaterials/MatineeCam_mat (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.28-02.29.48:278][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: WaitingForIo) recursively from another package /Engine/EditorMaterials/MatineeCam_mat (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.28-02.29.48:278][  0]LogStreaming: Display: Package /Engine/EditorMaterials/MatineeCam_mat is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec because of a recursive sync load
+[2026.10.28-02.29.48:278][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: DeferredPostLoad) recursively from another package /Engine/EditorMaterials/MatineeCam_mat (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.28-02.29.48:279][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: WaitingForIo) recursively from another package /Engine/EditorMaterials/MatineeCam_mat (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.28-02.29.48:280][  0]LogStreaming: Display: Package /Engine/EditorMaterials/MatineeCam_mat is adding a dynamic import to package /Engine/EngineMaterials/T_Default_Material_Grid_M because of a recursive sync load
+[2026.10.28-02.29.48:280][  0]LogStreaming: Display: Package /Engine/EditorMaterials/MatineeCam_mat is adding a dynamic import to package /Engine/EngineMaterials/T_Default_Material_Grid_N because of a recursive sync load
+[2026.10.28-02.29.48:280][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.28-02.29.48:281][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.28-02.29.48:281][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.28-02.29.48:282][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDiffuse because of a recursive sync load
+[2026.10.28-02.29.48:282][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components because of a recursive sync load
+[2026.10.28-02.29.48:282][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultPostProcessMaterial because of a recursive sync load
+[2026.10.28-02.29.48:282][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.28-02.29.48:283][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultLightFunctionMaterial because of a recursive sync load
+[2026.10.28-02.29.48:283][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.28-02.29.48:283][  0]LogStreaming: Display: Package /Engine/EngineMaterials/WorldGridMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDeferredDecalMaterial because of a recursive sync load
+[2026.10.28-02.29.48:283][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.28-02.29.48:283][  0]LogStreaming: Display: Package /Engine/EditorMaterials/MatineeCam_mat is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade because of a recursive sync load
+[2026.10.28-02.29.48:283][  0]LogStreaming: Display: Package /Engine/EditorMaterials/MatineeCam_mat is adding a dynamic import to package /Engine/EngineMaterials/WorldGridMaterial because of a recursive sync load
+[2026.10.28-02.29.48:283][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: DeferredPostLoad) recursively from another package /Engine/EditorMaterials/MatineeCam_mat (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.28-02.29.48:293][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2026.10.28-02.29.48:293][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2026.10.28-02.29.48:293][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2026.10.28-02.29.48:293][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2026.10.28-02.29.48:293][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2026.10.28-02.29.48:454][  0]LogConfig: Applying CVar settings from Section [/Script/CQTest.CQTestSettings] File [Engine]
+[2026.10.28-02.29.48:472][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2026.10.28-02.29.48:472][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2026.10.28-02.29.48:472][  0]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: NetActorFactory name: NetActorFactory id: 0
+[2026.10.28-02.29.48:472][  0]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: NetSubObjectFactory name: NetSubObjectFactory id: 1
+[2026.10.28-02.29.48:502][  0]LogLiveCoding: Display: Starting LiveCoding
+[2026.10.28-02.29.48:502][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: UnrealEditor Win64 Development
+[2026.10.28-02.29.48:503][  0]LogLiveCoding: Display: Detected running instance in process group "UE_CX_0xbe37e073", connecting to console process (PID: 26180)
+[2026.10.28-02.29.48:503][  0]LogLiveCoding: Display: Waiting for server
+[2026.10.28-02.29.48:503][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2026.10.28-02.29.48:503][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2026.10.28-02.29.48:505][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 3.050 ms
+[2026.10.28-02.29.48:524][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2026.10.28-02.29.48:662][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: A876F30ADFE948DB8000000000002800 | Instance: 9AEAA7A348EE20D4AD4FE2A39ABE328E (DESKTOP-DEVVN5B-30200).
+[2026.10.28-02.29.48:702][  0]LogCollectionManager: Loaded 0 collections in 0.002098 seconds
+[2026.10.28-02.29.48:799][  0]LogFileCache: Scanning file cache for directory 'C:/Git/CX/Saved/Collections/' took 0.00s
+[2026.10.28-02.29.48:799][  0]LogFileCache: Scanning file cache for directory 'C:/Git/CX/Content/Developers/User/Collections/' took 0.00s
+[2026.10.28-02.29.48:799][  0]LogFileCache: Scanning file cache for directory 'C:/Git/CX/Content/Collections/' took 0.00s
+[2026.10.28-02.29.48:799][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000000 seconds (updated 0 objects)
+[2026.10.28-02.29.48:820][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2026.10.28-02.29.48:823][  0]LogUdpMessaging: Display: Work queue size set to 1024.
+[2026.10.28-02.29.48:824][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2026.10.28-02.29.48:824][  0]LogUdpMessaging: Display: Unicast socket bound to '0.0.0.0:64685'.
+[2026.10.28-02.29.48:826][  0]LogUdpMessaging: Display: Added local interface '192.168.75.97' to multicast group '230.0.0.1:6666'
+[2026.10.28-02.29.48:828][  0]LogUdpMessaging: Display: Using asynchronous task graph for message deserialization.
+[2026.10.28-02.29.49:060][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2026.10.28-02.29.49:060][  0]LogNNERuntimeORT: Selecting NPU adapter: NVIDIA GeForce RTX 5060
+[2026.10.28-02.29.49:242][  0]LogNNERuntimeORT: MakeRuntimeORTDml:
+[2026.10.28-02.29.49:242][  0]LogNNERuntimeORT:   DirectML:  yes
+[2026.10.28-02.29.49:243][  0]LogNNERuntimeORT:   RHI D3D12: no
+[2026.10.28-02.29.49:243][  0]LogNNERuntimeORT:   D3D12:     yes
+[2026.10.28-02.29.49:243][  0]LogNNERuntimeORT:   NPU:       yes
+[2026.10.28-02.29.49:243][  0]LogNNERuntimeORT: Interface availability:
+[2026.10.28-02.29.49:244][  0]LogNNERuntimeORT:   GPU: yes
+[2026.10.28-02.29.49:244][  0]LogNNERuntimeORT:   RDG: no
+[2026.10.28-02.29.49:244][  0]LogNNERuntimeORT:   NPU: yes
+[2026.10.28-02.29.49:440][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2026.10.28-02.29.49:440][  0]LogNNERuntimeORT: Selecting NPU adapter: NVIDIA GeForce RTX 5060
+[2026.10.28-02.29.49:728][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2026.10.28-02.29.49:728][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2026.10.28-02.29.49:748][  0]LogMetaSound: MetaSound Engine Initialized
+[2026.10.28-02.29.49:828][  0]SourceControl: Revision control is disabled
+[2026.10.28-02.29.49:965][  0]LogUsd: Attempted to call a static function from UnrealUSDWrapper before the module is actually loaded! The module will be loaded now, but not all static functions have this check. In general, please ensure an Unreal module is loaded before calling any of its static functions, for example by calling 'FModuleManager::LoadModuleChecked<IUnrealUSDWrapperModule>("UnrealUSDWrapper");' beforehand.
+[2026.10.28-02.29.49:991][  0]LogConfig: Applying CVar settings from Section [/Script/NNEDenoiser.NNEDenoiserSettings] File [Engine]
+[2026.10.28-02.29.49:994][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2026.10.28-02.29.49:998][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.10.28-02.29.49:998][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.10.28-02.29.50:036][  0]LogUObjectArray: 38289 objects as part of root set at end of initial load.
+[2026.10.28-02.29.50:036][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2026.10.28-02.29.50:119][  0]LogEngine: Initializing Engine...
+[2026.10.28-02.29.50:142][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2026.10.28-02.29.50:143][  0]LogInit: Texture streaming: Disabled
+[2026.10.28-02.29.50:160][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2026.10.28-02.29.50:161][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled
+[2026.10.28-02.29.50:162][  0]LogNiagara: UAV Float16 is not supported, compressed GPU emitters will be disabled.
+[2026.10.28-02.29.50:163][  0]LogInit: Display: Game Engine Initialized.
+[2026.10.28-02.29.50:165][  0]LogNNEDenoiser: Ray Tracing is not enabled, therefore NNEDenoiser is not registered!
+[2026.10.28-02.29.50:165][  0]LogNiagaraEditor: GEditor isn't valid! Particle reset commands will not work for Niagara components!
+[2026.10.28-02.29.50:167][  0]LogPython: Python enabled via CVar 'Engine.Python.IsEnabledByDefault'
+[2026.10.28-02.29.50:167][  0]LogPython: Using Python 3.11.8
+[2026.10.28-02.29.51:053][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2026.10.28-02.29.51:082][  0]LogInit: Display: Starting Game.
+[2026.10.28-02.29.51:082][  0]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/VehicleTemplate/Maps/VehicleAdvExampleMap?Name=Player"
+[2026.10.28-02.29.51:082][  0]LogNet: Browse: /Game/VehicleTemplate/Maps/VehicleAdvExampleMap?Name=Player
+[2026.10.28-02.29.51:082][  0]LogLoad: LoadMap: /Game/VehicleTemplate/Maps/VehicleAdvExampleMap?Name=Player
+[2026.10.28-02.29.51:082][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2026.10.28-02.29.51:082][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2026.10.28-02.29.51:103][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2026.10.28-02.29.51:105][  0]LogTurnkeySupport: Running Turnkey device detection: ' -ScriptsForProject="C:/Git/CX/CX.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Git/CX/Intermediate/TurnkeyReport_1.log" -log="C:/Git/CX/Intermediate/TurnkeyLog_1.log" -project="C:/Git/CX/CX.uproject"  -Device=Win64@DESKTOP-DEVVN5B'
+[2026.10.28-02.29.51:105][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.6/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Git/CX/CX.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Git/CX/Intermediate/TurnkeyReport_1.log" -log="C:/Git/CX/Intermediate/TurnkeyLog_1.log" -project="C:/Git/CX/CX.uproject"  -Device=Win64@DESKTOP-DEVVN5B" -nocompile -nocompileuat ]
+[2026.10.28-02.29.51:121][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/FlattenMaterial_VT (state: WaitingForIo) recursively from another package /Engine/Maps/Templates/HLODs/HLODLayer_Merged (state: PreloadLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.28-02.29.51:123][  0]LogStreaming: Display: Package /Engine/Maps/Templates/HLODs/HLODLayer_Merged is adding a dynamic import to package /Engine/EngineMaterials/BaseFlattenDiffuseMap_VT because of a recursive sync load
+[2026.10.28-02.29.51:124][  0]LogStreaming: Display: Package /Engine/Maps/Templates/HLODs/HLODLayer_Merged is adding a dynamic import to package /Engine/EngineMaterials/BaseFlattenEmissiveMap_VT because of a recursive sync load
+[2026.10.28-02.29.51:124][  0]LogStreaming: Display: Package /Engine/Maps/Templates/HLODs/HLODLayer_Merged is adding a dynamic import to package /Engine/EngineMaterials/BaseFlattenGrayscaleMap_VT because of a recursive sync load
+[2026.10.28-02.29.51:124][  0]LogStreaming: Display: Package /Engine/Maps/Templates/HLODs/HLODLayer_Merged is adding a dynamic import to package /Engine/EngineMaterials/BaseFlattenLinearColor_VT because of a recursive sync load
+[2026.10.28-02.29.51:124][  0]LogStreaming: Display: Package /Engine/Maps/Templates/HLODs/HLODLayer_Merged is adding a dynamic import to package /Engine/EngineMaterials/BaseFlattenNormalMap_VT because of a recursive sync load
+[2026.10.28-02.29.51:124][  0]LogStreaming: Display: Package /Engine/Maps/Templates/HLODs/HLODLayer_Merged is adding a dynamic import to package /Engine/EngineMaterials/Black_1x1_EXR_Texture_VT because of a recursive sync load
+[2026.10.28-02.29.51:124][  0]LogStreaming: Display: Package /Engine/Maps/Templates/HLODs/HLODLayer_Merged is adding a dynamic import to package /Engine/EngineMaterials/FlattenMaterial_VT because of a recursive sync load
+[2026.10.28-02.29.51:125][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/FlattenMaterial_VT (state: DeferredPostLoad) recursively from another package /Engine/Maps/Templates/HLODs/HLODLayer_Merged (state: PreloadLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.10.28-02.29.51:148][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world VehicleAdvExampleMap
+[2026.10.28-02.29.51:151][  0]LogWorldPartition: ULevel::OnLevelLoaded(VehicleAdvExampleMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.10.28-02.29.51:151][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.10.28-02.29.51:152][  0]LogWorldPartition: UWorldPartition::Initialize : World = /Game/VehicleTemplate/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap, World Type = Game, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 1, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.10.28-02.29.51:152][  0]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Dedicated Server, IsServer = 1, IsDedicatedServer = 1, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.10.28-02.29.51:214][  0]LogAssetRegistry: Display: Asset registry cache read as 67.7 MiB from ../../../../../../Git/CX/Intermediate/CachedAssetRegistry_0.bin.
+[2026.10.28-02.29.51:214][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.057s loading caches ../../../../../../Git/CX/Intermediate/CachedAssetRegistry_*.bin.
+[2026.10.28-02.29.51:217][  0]LogWorldPartition: Display: GenerateStreaming for 'VehicleAdvExampleMap' started...
+[2026.10.28-02.29.51:443][  0]LogWorldPartition: Display: GenerateStreaming for 'VehicleAdvExampleMap' took 226.319 ms
+[2026.10.28-02.29.51:467][  0]LogWorldPartition: Display: WorldPartition initialize took 315.676 ms
+[2026.10.28-02.29.51:620][  0]LogLoad: Game class is 'BP_VehicleAdvGameMode_C'
+[2026.10.28-02.29.51:620][  0]LogCsvProfiler: Display: Metadata set : iris="0"
+[2026.10.28-02.29.51:620][  0]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2026.10.28-02.29.51:621][  0]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2026.10.28-02.29.51:621][  0]LogPushModel: PushModel HandleCreation is now enabled
+[2026.10.28-02.29.51:621][  0]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2026.10.28-02.29.51:621][  0]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2026.10.28-02.29.51:622][  0]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2026.10.28-02.29.51:622][  0]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.10.28-02.29.51:622][  0]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2026.10.28-02.29.51:622][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/LevelPrototyping/Meshes/SM_Cube.SM_Cube being ready before playing
+[2026.10.28-02.29.51:622][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/LevelPrototyping/Meshes/SM_Cylinder.SM_Cylinder being ready before playing
+[2026.10.28-02.29.51:622][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/LevelPrototyping/Meshes/SM_Ramp.SM_Ramp being ready before playing
+[2026.10.28-02.29.51:632][  0]LogWorld: Bringing World /Game/VehicleTemplate/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 30) at 2026.10.28-11.29.51
+[2026.10.28-02.29.51:633][  0]LogWorld: Bringing up level for play took: 0.009464
+[2026.10.28-02.29.51:633][  0]r.MotionBlur.Amount = "0"
+[2026.10.28-02.29.51:634][  0]LogLoad: Took 0.551360 seconds to LoadMap(/Game/VehicleTemplate/Maps/VehicleAdvExampleMap)
+[2026.10.28-02.29.51:634][  0]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/VehicleTemplate/Maps/VehicleAdvExampleMap
+[2026.10.28-02.29.51:638][  0]LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2026.10.28-02.29.51:713][  0]LogAssetRegistry: AssetRegistryGather time 0.1139s: AssetDataDiscovery 0.0000s, AssetDataGather 0.0678s, StoreResults 0.0461s. Wall time 3.7280s.
+	NumCachedDirectories 1844. NumUncachedDirectories 22. NumCachedFiles 8042. NumUncachedFiles 2.
+	BackgroundTickInterruptions 0.
+[2026.10.28-02.29.51:742][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2026.10.28-02.29.51:742][  0]LogLoad: (Engine Initialization) Total time: 6.83 seconds
+[2026.10.28-02.29.51:784][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Importers/USDImporter/Content/Python/init_unreal.py... started...
+[2026.10.28-02.29.51:790][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Importers/USDImporter/Content/Python/init_unreal.py... took 5.338 ms
+[2026.10.28-02.29.51:794][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2026.10.28-02.29.51:850][  0]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2026.10.28-02.29.51:932][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 138.742 ms (total: 144.081 ms)
+[2026.10.28-02.29.51:950][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: CXEditor Win64 Development
+[2026.10.28-02.29.51:957][  1]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64684
+[2026.10.28-02.29.51:958][  1]LogNetVersion: CX 1.0.0.0, NetCL: 43139311, EngineNetworkVersion: 42, GameNetworkVersion: 0 (Checksum: 286041889)
+[2026.10.28-02.29.51:958][  1]LogHandshake: SendConnectChallenge. Timestamp: 0.214713, Cookie: 057107042097070207234164133048192077210022249029111244140037
+[2026.10.28-02.29.52:027][  3]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64684
+[2026.10.28-02.29.52:027][  3]LogHandshake: SendChallengeAck. InCookie: 057107042097070207234164133048192077210022249029111244140037
+[2026.10.28-02.29.52:028][  3]LogNet: Server accepting post-challenge connection from: 127.0.0.1:64684
+[2026.10.28-02.29.52:028][  3]LogNet: IpConnection_0 setting maximum channels to: 32767
+[2026.10.28-02.29.52:028][  3]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.10.28-02.29.52:028][  3]LogNet: NotifyAcceptedConnection: Name: VehicleAdvExampleMap, TimeStamp: 10/28/26 11:29:52, [UNetConnection] RemoteAddr: 127.0.0.1:64684, Name: IpConnection_0, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2026.10.28-02.29.52:028][  3]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:64684, Name: IpConnection_0, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2026.10.28-02.29.52:061][  4]LogNet: NotifyAcceptingChannel Control 0 server World /Game/VehicleTemplate/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap: Accepted
+[2026.10.28-02.29.52:061][  4]LogNet: Remote platform little endian=1
+[2026.10.28-02.29.52:062][  4]LogNet: This platform little endian=1
+[2026.10.28-02.29.52:095][  5]LogNet: Login request: ?Name=DESKTOP-DEVVN5B-2730D5BD4E8CFAC7036A5FBA748E058D userId: NULL:DESKTOP-DEVVN5B-2730D5BD4E8CFAC7036A5FBA748E058D platform: NULL
+[2026.10.28-02.29.52:129][  6]LogNet: Client netspeed is 100000
+[2026.10.28-02.29.52:342][ 12]LogTurnkeySupport: Completed device detection: Code = 0
+[2026.10.28-02.29.52:343][ 12]LogTurnkeySupport: Turnkey Device: Win64@DESKTOP-DEVVN5B: (Name=DESKTOP-DEVVN5B, Type=Computer, Status=Valid, MinAllowed=10.0.19041.0, MaxAllowed=, Current=10.0.26100.0, Flags="Device_InstallSoftwareValid")
+[2026.10.28-02.29.52:515][ 16]LogNet: Join request: /Engine/Maps/Entry?Name=DESKTOP-DEVVN5B-2730D5BD4E8CFAC7036A5FBA748E058D?SplitscreenCount=1
+[2026.10.28-02.29.52:522][ 16]LogNet: Join succeeded: DESKTOP-DEVVN5B-2730
+[2026.10.28-02.29.53:397][ 40]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64687
+[2026.10.28-02.29.53:416][ 40]LogHandshake: SendConnectChallenge. Timestamp: 1.654050, Cookie: 037082027128111204109107134222097165096176177144052252090104
+[2026.10.28-02.29.53:430][ 41]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64687
+[2026.10.28-02.29.53:430][ 41]LogHandshake: SendChallengeAck. InCookie: 037082027128111204109107134222097165096176177144052252090104
+[2026.10.28-02.29.53:431][ 41]LogNet: Server accepting post-challenge connection from: 127.0.0.1:64687
+[2026.10.28-02.29.53:431][ 41]LogNet: IpConnection_1 setting maximum channels to: 32767
+[2026.10.28-02.29.53:446][ 41]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.10.28-02.29.53:448][ 41]LogNet: NotifyAcceptedConnection: Name: VehicleAdvExampleMap, TimeStamp: 10/28/26 11:29:53, [UNetConnection] RemoteAddr: 127.0.0.1:64687, Name: IpConnection_1, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2026.10.28-02.29.53:453][ 41]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:64687, Name: IpConnection_1, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2026.10.28-02.29.53:454][ 41]LogNet: NotifyAcceptingChannel Control 0 server World /Game/VehicleTemplate/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap: Accepted
+[2026.10.28-02.29.53:454][ 41]LogNet: Remote platform little endian=1
+[2026.10.28-02.29.53:454][ 41]LogNet: This platform little endian=1
+[2026.10.28-02.29.53:456][ 41]LogNet: Login request: ?Name=DESKTOP-DEVVN5B-CBF500BC491BA521F85E21919FECABD0 userId: NULL:DESKTOP-DEVVN5B-CBF500BC491BA521F85E21919FECABD0 platform: NULL
+[2026.10.28-02.29.53:898][ 55]LogNet: Client netspeed is 100000
+[2026.10.28-02.29.53:900][ 55]LogNet: Join request: /Engine/Maps/Entry?Name=DESKTOP-DEVVN5B-CBF500BC491BA521F85E21919FECABD0?SplitscreenCount=1
+[2026.10.28-02.29.53:906][ 55]LogNet: Join succeeded: DESKTOP-DEVVN5B-CBF5
+[2026.10.28-02.29.56:801][141]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.29.56:802][141]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.29.56:802][141]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.29.56:802][141]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.29.56:802][141]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.29.56:835][142]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.29.56:836][142]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.29.56:836][142]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.29.56:836][142]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.29.56:838][142]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.29.56:838][142]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.29.56:868][143]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.29.56:868][143]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.29.56:869][143]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.29.56:870][143]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.29.56:870][143]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.29.56:902][144]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.29.56:903][144]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.29.56:903][144]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.29.56:903][144]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.29.56:935][145]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.29.56:936][145]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.29.56:937][145]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.29.56:937][145]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.29.56:938][145]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.05:131][390]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.05:132][390]LogTemplateVehicle: Warning: Attack trace hit: LandscapeSplineActor_UAID_F02F74551BF5A6E801_1687402368
+[2026.10.28-02.30.05:132][390]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.05:133][390]LogTemplateVehicle: Warning: Attack trace hit: LandscapeSplineActor_UAID_F02F74551BF5A6E801_1687402368
+[2026.10.28-02.30.05:133][390]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.05:134][390]LogTemplateVehicle: Warning: Attack trace hit: LandscapeSplineActor_UAID_F02F74551BF5A6E801_1687402368
+[2026.10.28-02.30.05:134][390]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.05:135][390]LogTemplateVehicle: Warning: Attack trace hit: LandscapeSplineActor_UAID_F02F74551BF5A6E801_1687402368
+[2026.10.28-02.30.05:135][390]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.05:136][390]LogTemplateVehicle: Warning: Attack trace hit: LandscapeSplineActor_UAID_F02F74551BF5A6E801_1687402368
+[2026.10.28-02.30.05:137][390]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.05:137][390]LogTemplateVehicle: Warning: Attack trace hit: LandscapeSplineActor_UAID_F02F74551BF5A6E801_1687402368
+[2026.10.28-02.30.05:137][390]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.05:138][390]LogTemplateVehicle: Warning: Attack trace hit: LandscapeSplineActor_UAID_F02F74551BF5A6E801_1687402368
+[2026.10.28-02.30.05:164][391]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.05:167][391]LogTemplateVehicle: Warning: Attack trace hit: LandscapeSplineActor_UAID_F02F74551BF5A6E801_1687402368
+[2026.10.28-02.30.05:168][391]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.05:168][391]LogTemplateVehicle: Warning: Attack trace hit: LandscapeSplineActor_UAID_F02F74551BF5A6E801_1687402368
+[2026.10.28-02.30.05:168][391]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.05:168][391]LogTemplateVehicle: Warning: Attack trace hit: LandscapeSplineActor_UAID_F02F74551BF5A6E801_1687402368
+[2026.10.28-02.30.05:168][391]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.05:169][391]LogTemplateVehicle: Warning: Attack trace hit: LandscapeSplineActor_UAID_F02F74551BF5A6E801_1687402368
+[2026.10.28-02.30.05:198][392]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.05:199][392]LogTemplateVehicle: Warning: Attack trace hit: LandscapeSplineActor_UAID_F02F74551BF5A6E801_1687402368
+[2026.10.28-02.30.05:199][392]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.05:199][392]LogTemplateVehicle: Warning: Attack trace hit: LandscapeSplineActor_UAID_F02F74551BF5A6E801_1687402368
+[2026.10.28-02.30.05:200][392]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.05:200][392]LogTemplateVehicle: Warning: Attack trace hit: LandscapeSplineActor_UAID_F02F74551BF5A6E801_1687402368
+[2026.10.28-02.30.05:200][392]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.05:200][392]LogTemplateVehicle: Warning: Attack trace hit: LandscapeSplineActor_UAID_F02F74551BF5A6E801_1687402368
+[2026.10.28-02.30.05:200][392]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.05:201][392]LogTemplateVehicle: Warning: Attack trace hit: LandscapeSplineActor_UAID_F02F74551BF5A6E801_1687402368
+[2026.10.28-02.30.05:201][392]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.05:201][392]LogTemplateVehicle: Warning: Attack trace hit: LandscapeSplineActor_UAID_F02F74551BF5A6E801_1687402368
+[2026.10.28-02.30.05:232][393]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.05:233][393]LogTemplateVehicle: Warning: Attack trace hit: LandscapeSplineActor_UAID_F02F74551BF5A6E801_1687402368
+[2026.10.28-02.30.05:233][393]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.05:234][393]LogTemplateVehicle: Warning: Attack trace hit: LandscapeSplineActor_UAID_F02F74551BF5A6E801_1687402368
+[2026.10.28-02.30.05:234][393]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.05:234][393]LogTemplateVehicle: Warning: Attack trace hit: LandscapeSplineActor_UAID_F02F74551BF5A6E801_1687402368
+[2026.10.28-02.30.05:235][393]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.05:235][393]LogTemplateVehicle: Warning: Attack trace hit: LandscapeSplineActor_UAID_F02F74551BF5A6E801_1687402368
+[2026.10.28-02.30.05:236][393]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.05:236][393]LogTemplateVehicle: Warning: Attack trace hit: LandscapeSplineActor_UAID_F02F74551BF5A6E801_1687402368
+[2026.10.28-02.30.05:236][393]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.05:236][393]LogTemplateVehicle: Warning: Attack trace hit: LandscapeSplineActor_UAID_F02F74551BF5A6E801_1687402368
+[2026.10.28-02.30.05:266][394]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.05:267][394]LogTemplateVehicle: Warning: Attack trace hit: LandscapeSplineActor_UAID_F02F74551BF5A6E801_1687402368
+[2026.10.28-02.30.05:267][394]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.05:267][394]LogTemplateVehicle: Warning: Attack trace hit: LandscapeSplineActor_UAID_F02F74551BF5A6E801_1687402368
+[2026.10.28-02.30.05:268][394]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.05:268][394]LogTemplateVehicle: Warning: Attack trace hit: LandscapeSplineActor_UAID_F02F74551BF5A6E801_1687402368
+[2026.10.28-02.30.05:268][394]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.05:269][394]LogTemplateVehicle: Warning: Attack trace hit: LandscapeSplineActor_UAID_F02F74551BF5A6E801_1687402368
+[2026.10.28-02.30.09:503][521]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:504][521]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:504][521]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:505][521]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:507][521]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:507][521]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:508][521]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:508][521]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:536][522]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:537][522]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:538][522]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:538][522]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:538][522]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:538][522]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:539][522]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:539][522]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:539][522]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:539][522]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:540][522]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:540][522]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:569][523]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:570][523]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:571][523]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:571][523]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:571][523]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:572][523]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:572][523]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:572][523]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:573][523]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:573][523]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:603][524]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:604][524]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:604][524]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:604][524]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:605][524]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:605][524]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:606][524]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:606][524]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:607][524]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:607][524]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:608][524]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:608][524]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:636][525]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:637][525]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:637][525]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:638][525]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:638][525]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:638][525]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:639][525]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:639][525]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:669][526]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:670][526]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:670][526]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:670][526]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:670][526]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:670][526]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:671][526]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:671][526]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:672][526]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:672][526]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:703][527]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:704][527]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:704][527]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:704][527]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:704][527]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:704][527]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.09:705][527]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.09:705][527]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.10:471][550]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.10:472][550]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.10:473][550]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.10:474][550]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.10:474][550]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.10:474][550]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.10:474][550]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.10:475][550]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.10:475][550]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.10:475][550]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.10:504][551]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.10:505][551]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.10:505][551]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.10:505][551]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.10:506][551]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.10:506][551]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.10:507][551]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.10:507][551]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.10:507][551]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.10:508][551]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.10:508][551]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.10:508][551]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.10:537][552]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.10:537][552]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.10:538][552]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.10:539][552]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.10:539][552]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.10:539][552]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.10:539][552]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.10:539][552]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.10:571][553]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.10:572][553]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.10:573][553]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.10:573][553]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.10:573][553]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.10:574][553]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.10:574][553]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.10:575][553]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.10:575][553]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.10:575][553]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.10:576][553]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.10:576][553]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.10:605][554]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.10:608][554]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.10:609][554]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.10:609][554]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:408][578]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:409][578]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:441][579]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:442][579]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:443][579]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:443][579]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:443][579]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:443][579]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:443][579]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:445][579]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:445][579]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:446][579]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:447][579]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:447][579]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:476][580]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:476][580]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:476][580]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:477][580]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:477][580]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:477][580]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:477][580]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:478][580]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:478][580]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:478][580]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:478][580]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:479][580]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:510][581]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:511][581]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:511][581]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:511][581]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:513][581]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:513][581]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:513][581]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:513][581]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:514][581]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:514][581]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:514][581]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:514][581]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:544][582]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:546][582]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:546][582]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:546][582]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:546][582]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:547][582]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:547][582]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:547][582]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:577][583]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:578][583]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:578][583]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:578][583]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:579][583]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:579][583]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:580][583]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:580][583]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:580][583]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:580][583]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:581][583]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:581][583]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:610][584]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:611][584]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:611][584]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:612][584]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:612][584]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:612][584]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:613][584]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:613][584]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:613][584]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:613][584]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:614][584]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:614][584]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.11:644][585]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.11:644][585]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.12:613][614]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.12:614][614]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.12:614][614]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.12:614][614]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.12:614][614]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.12:614][614]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.12:615][614]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.12:615][614]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.12:646][615]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.12:647][615]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.12:647][615]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.12:648][615]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.12:648][615]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.12:648][615]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.12:649][615]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.12:649][615]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.12:649][615]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.12:650][615]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.12:650][615]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.12:650][615]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.12:679][616]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.12:680][616]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.12:680][616]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.12:680][616]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.12:680][616]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.12:681][616]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.12:681][616]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.12:681][616]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.12:681][616]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.12:682][616]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.12:713][617]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.12:713][617]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.12:714][617]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.12:714][617]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.12:714][617]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.12:715][617]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.12:717][617]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.12:717][617]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.12:718][617]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.12:718][617]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.12:719][617]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.12:719][617]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.12:746][618]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.12:746][618]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.12:746][618]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.12:749][618]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.12:750][618]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.12:750][618]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.12:750][618]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.12:751][618]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.12:780][619]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.12:781][619]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.12:782][619]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.12:782][619]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.12:782][619]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.12:782][619]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.12:782][619]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.12:783][619]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.13:850][651]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.13:851][651]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.13:852][651]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.13:884][652]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.13:885][652]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.13:885][652]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.13:886][652]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.13:886][652]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.13:887][652]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.13:918][653]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.13:918][653]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.13:919][653]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.13:919][653]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.13:951][654]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.13:952][654]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.13:952][654]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.13:953][654]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.13:953][654]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.13:954][654]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.13:984][655]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.13:986][655]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.13:986][655]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.13:987][655]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.13:987][655]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.13:987][655]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.14:018][656]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.14:019][656]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.14:019][656]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.14:020][656]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.14:051][657]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.14:052][657]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.14:053][657]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.14:054][657]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.14:054][657]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.14:054][657]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.15:354][696]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.15:355][696]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.15:355][696]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.15:355][696]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.15:356][696]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.15:356][696]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.15:356][696]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.15:357][696]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.15:357][696]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.15:358][696]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.15:387][697]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.15:387][697]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.15:387][697]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.15:388][697]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.15:388][697]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.15:388][697]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.15:388][697]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.15:389][697]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.15:389][697]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.15:389][697]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.15:389][697]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.15:389][697]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.15:420][698]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.15:421][698]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.15:421][698]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.15:421][698]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.15:422][698]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.15:422][698]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.15:422][698]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.15:423][698]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.15:455][699]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.15:455][699]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.15:455][699]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.15:456][699]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.15:458][699]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.15:458][699]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.15:458][699]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.15:459][699]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.15:459][699]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.15:459][699]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.15:459][699]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.15:459][699]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.15:489][700]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.15:490][700]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.15:490][700]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.15:491][700]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.15:491][700]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.15:491][700]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.15:492][700]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.15:492][700]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.15:493][700]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.15:494][700]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.15:494][700]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.15:494][700]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.15:522][701]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.15:523][701]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.15:523][701]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.15:525][701]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.15:526][701]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.15:526][701]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.15:526][701]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.15:526][701]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.16:456][729]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:457][729]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.16:458][729]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:458][729]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.16:458][729]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:458][729]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.16:489][730]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:490][730]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.16:491][730]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:491][730]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.16:491][730]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:492][730]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.16:492][730]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:492][730]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.16:492][730]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:493][730]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.16:522][731]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:522][731]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.16:523][731]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:523][731]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.16:524][731]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:524][731]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.16:524][731]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:525][731]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.16:525][731]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:525][731]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.16:526][731]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:526][731]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.16:556][732]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:557][732]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:557][732]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:558][732]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:589][733]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:589][733]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:590][733]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:590][733]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:590][733]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:623][734]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:625][734]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:625][734]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:625][734]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:626][734]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:626][734]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:657][735]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:659][735]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:957][744]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:958][744]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.16:958][744]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:958][744]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.16:959][744]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:959][744]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.16:990][745]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:990][745]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.16:990][745]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:991][745]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.16:991][745]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:991][745]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.16:991][745]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:992][745]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.16:992][745]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:993][745]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.16:993][745]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.16:993][745]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:023][746]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:023][746]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:025][746]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:025][746]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:025][746]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:025][746]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:025][746]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:026][746]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:026][746]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:026][746]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:026][746]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:026][746]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:056][747]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:056][747]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:057][747]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:057][747]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:057][747]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:057][747]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:058][747]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:058][747]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:089][748]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:090][748]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:090][748]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:091][748]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:091][748]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:091][748]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:091][748]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:091][748]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:092][748]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:092][748]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:122][749]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:122][749]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:123][749]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:123][749]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:123][749]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:124][749]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:124][749]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:124][749]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:124][749]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:125][749]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:289][754]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:290][754]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:291][754]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:291][754]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:291][754]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:291][754]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:292][754]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:293][754]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:293][754]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:293][754]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:293][754]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:293][754]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:294][754]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:294][754]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:323][755]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:323][755]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:324][755]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:324][755]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:325][755]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:325][755]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:326][755]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:326][755]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:355][756]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:356][756]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:356][756]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:358][756]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:358][756]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:358][756]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:359][756]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:359][756]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:359][756]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:360][756]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:360][756]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:360][756]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:389][757]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:390][757]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:555][762]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:556][762]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:557][762]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:558][762]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:558][762]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:558][762]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:559][762]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:559][762]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:559][762]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:559][762]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:560][762]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:560][762]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:589][763]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:590][763]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:590][763]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:591][763]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:591][763]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:591][763]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:592][763]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:592][763]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:592][763]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:593][763]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:593][763]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:594][763]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:622][764]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:623][764]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:623][764]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:623][764]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:624][764]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:624][764]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:624][764]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:624][764]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:789][769]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:790][769]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:791][769]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:792][769]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:792][769]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:793][769]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:793][769]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:793][769]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:822][770]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:823][770]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:823][770]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:823][770]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:824][770]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:824][770]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:824][770]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:824][770]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:825][770]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:825][770]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:827][770]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:827][770]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:856][771]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:857][771]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:857][771]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:858][771]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:859][771]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:859][771]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.17:859][771]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.17:859][771]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:024][776]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:027][776]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:028][776]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:028][776]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:028][776]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:029][776]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:029][776]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:029][776]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:030][776]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:030][776]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:030][776]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:030][776]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:058][777]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:059][777]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:059][777]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:060][777]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:060][777]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:060][777]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:060][777]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:061][777]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:061][777]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:062][777]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:062][777]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:062][777]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:092][778]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:093][778]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:093][778]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:093][778]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:260][783]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:261][783]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:261][783]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:261][783]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:262][783]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:262][783]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:262][783]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:262][783]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:263][783]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:263][783]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:263][783]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:264][783]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:293][784]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:293][784]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:293][784]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:295][784]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:295][784]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:295][784]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:295][784]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:295][784]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:296][784]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:296][784]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:327][785]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:328][785]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:328][785]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:329][785]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:329][785]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:329][785]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:330][785]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:330][785]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:461][789]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:462][789]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:462][789]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:462][789]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:462][789]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:463][789]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:463][789]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:463][789]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:464][789]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:464][789]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:464][789]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:464][789]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:495][790]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:496][790]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:496][790]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:497][790]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:497][790]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:497][790]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:498][790]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:498][790]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:498][790]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:499][790]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:499][790]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:499][790]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:528][791]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:529][791]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:529][791]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:529][791]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:530][791]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:530][791]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:530][791]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:530][791]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:531][791]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:531][791]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:532][791]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:532][791]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:662][795]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:663][795]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:663][795]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:663][795]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:664][795]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:664][795]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:696][796]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:696][796]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:697][796]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:697][796]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:698][796]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:698][796]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:698][796]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:699][796]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:699][796]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:699][796]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:699][796]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:700][796]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:729][797]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:731][797]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:731][797]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:732][797]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:732][797]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:732][797]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:732][797]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:732][797]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:733][797]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:733][797]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:733][797]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:733][797]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:763][798]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:764][798]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:863][801]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:865][801]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:866][801]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:866][801]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:867][801]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:867][801]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:867][801]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:867][801]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:867][801]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:868][801]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:868][801]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:868][801]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:897][802]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:897][802]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:897][802]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:897][802]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:898][802]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:898][802]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:899][802]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:899][802]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:930][803]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:931][803]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:931][803]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:931][803]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:932][803]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:932][803]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:932][803]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:932][803]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:933][803]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:934][803]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:934][803]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:934][803]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:963][804]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:964][804]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:964][804]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:965][804]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.18:965][804]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.18:965][804]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:063][807]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:064][807]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:064][807]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:064][807]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:065][807]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:065][807]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:097][808]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:097][808]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:098][808]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:098][808]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:098][808]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:099][808]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:099][808]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:099][808]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:130][809]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:131][809]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:131][809]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:131][809]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:131][809]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:131][809]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:132][809]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:132][809]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:133][809]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:133][809]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:134][809]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:134][809]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:164][810]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:166][810]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:166][810]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:167][810]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:168][810]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:168][810]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:169][810]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:170][810]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:298][814]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:299][814]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:299][814]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:300][814]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:300][814]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:300][814]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:301][814]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:301][814]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:301][814]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:301][814]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:302][814]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:302][814]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:303][814]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:303][814]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:331][815]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:331][815]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:332][815]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:332][815]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:332][815]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:333][815]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:333][815]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:333][815]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:365][816]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:365][816]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:365][816]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:365][816]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:366][816]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:367][816]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:969][834]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:970][834]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:971][834]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:972][834]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:972][834]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:972][834]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:973][834]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:973][834]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.19:973][834]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.19:973][834]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:002][835]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:002][835]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:002][835]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:002][835]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:004][835]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:004][835]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:004][835]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:004][835]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:005][835]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:005][835]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:036][836]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:037][836]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:038][836]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:038][836]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:038][836]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:039][836]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:039][836]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:039][836]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:039][836]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:039][836]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:040][836]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:040][836]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:069][837]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:069][837]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:070][837]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:070][837]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:070][837]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:071][837]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:071][837]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:071][837]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:103][838]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:104][838]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:106][838]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:106][838]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:107][838]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:107][838]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:107][838]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:107][838]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:107][838]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:108][838]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:202][841]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:203][841]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:235][842]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:235][842]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:235][842]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:235][842]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:236][842]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:236][842]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:236][842]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:236][842]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:237][842]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:237][842]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:237][842]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:237][842]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:269][843]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:270][843]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:271][843]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:271][843]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:272][843]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:272][843]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:272][843]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:272][843]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:303][844]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:304][844]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:305][844]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:305][844]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:306][844]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:306][844]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:306][844]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:306][844]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:306][844]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:306][844]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:307][844]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:307][844]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:336][845]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:337][845]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:338][845]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:338][845]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:338][845]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:338][845]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:339][845]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:339][845]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:339][845]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:339][845]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:435][848]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:436][848]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:436][848]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:436][848]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:437][848]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:437][848]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:469][849]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:469][849]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:470][849]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:470][849]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:470][849]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:470][849]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:470][849]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:471][849]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:471][849]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:471][849]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:471][849]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:471][849]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:502][850]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:503][850]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:503][850]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:504][850]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:505][850]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:505][850]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:505][850]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:505][850]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:505][850]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:506][850]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:535][851]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:535][851]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:535][851]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:535][851]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:536][851]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:536][851]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:536][851]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:536][851]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:569][852]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:570][852]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:636][854]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:637][854]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:637][854]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:638][854]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:670][855]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:671][855]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:671][855]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:671][855]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:671][855]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:672][855]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:672][855]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:672][855]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:704][856]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:705][856]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:705][856]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:705][856]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:706][856]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:706][856]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:706][856]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:706][856]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:707][856]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:707][856]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:708][856]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:708][856]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:737][857]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:737][857]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:738][857]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:738][857]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:739][857]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:739][857]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:740][857]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:740][857]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:740][857]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:740][857]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:741][857]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:742][857]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:771][858]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:771][858]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:772][858]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:772][858]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:772][858]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:772][858]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:872][861]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:874][861]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:876][861]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:877][861]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:877][861]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:878][861]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:878][861]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:878][861]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:879][861]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:879][861]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:879][861]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:879][861]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:905][862]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:906][862]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:906][862]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:906][862]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:906][862]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:906][862]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:907][862]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:907][862]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:907][862]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:908][862]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:908][862]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:908][862]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:938][863]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:938][863]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:939][863]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:939][863]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:939][863]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:939][863]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:940][863]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:940][863]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:972][864]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:973][864]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:973][864]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:973][864]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:975][864]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:975][864]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:975][864]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:975][864]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:976][864]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:976][864]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0
+[2026.10.28-02.30.20:976][864]LogTemplateVehicle: Error: Attack
+[2026.10.28-02.30.20:976][864]LogTemplateVehicle: Warning: Attack trace hit: BP_SportsCar_Pawn_C_0

@@ -1,0 +1,22 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CX.gen.cpp.obj": [
+			"ChatSubsystem.gen.cpp.obj",
+			"ChatUI.gen.cpp.obj",
+			"CX.init.gen.cpp.obj",
+			"CXGameMode.gen.cpp.obj",
+			"CXOffroadCar.gen.cpp.obj",
+			"CXOffroadWheelFront.gen.cpp.obj",
+			"CXOffroadWheelRear.gen.cpp.obj",
+			"CXPawn.gen.cpp.obj",
+			"CXPlayerController.gen.cpp.obj",
+			"CXSportsCar.gen.cpp.obj",
+			"CXSportsWheelFront.gen.cpp.obj",
+			"CXSportsWheelRear.gen.cpp.obj",
+			"CXUI.gen.cpp.obj",
+			"CXWheelFront.gen.cpp.obj",
+			"CXWheelRear.gen.cpp.obj"
+		]
+	}
+}
